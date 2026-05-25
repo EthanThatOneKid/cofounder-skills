@@ -13,6 +13,26 @@ This library is a free, open re-implementation of the Cofounder methodology, bro
 
 ---
 
+## Onboarding
+
+### Getting Started
+
+Install the library with:
+
+```bash
+npx skills add https://github.com/EthanThatOneKid/cofounder-skills
+```
+
+Then follow this flow:
+
+1. Start with [`cofounder-start`](/cofounder-skills/start/) to validate the idea, wedge market, name, and domain.
+2. Move into [`cofounder-plan`](/cofounder-skills/plan/) to turn the idea into a tight MVP spec.
+3. Continue through [`cofounder-build`](/cofounder-skills/build/), [`cofounder-brand`](/cofounder-skills/brand/), [`cofounder-launch`](/cofounder-skills/launch/), and [`cofounder-scale`](/cofounder-skills/scale/) as needed.
+
+You can use these skills one at a time or as a full end-to-end sequence.
+
+---
+
 ## Skill Index
 
 | Skill | Phase | Description |
