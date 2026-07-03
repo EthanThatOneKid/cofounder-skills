@@ -1,0 +1,56 @@
+name: Nightly Cofounder source scrape
+
+on:
+  schedule:
+    - cron: "17 10 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync Cofounder sources
+        run: python scripts/sync_cofounder_sources.py
+
+      - name: Validate generated manifest
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path("references/upstream/manifest.json").read_text())
+          count = manifest.get("count", 0)
+          if count < 10:
+              raise SystemExit(f"Expected at least 10 scraped documents, got {count}")
+          for item in manifest["items"]:
+              path = Path("references/upstream") / item["path"]
+              if not path.exists():
+                  raise SystemExit(f"Missing generated file: {path}")
+              if not path.read_text().strip():
+                  raise SystemExit(f"Generated file is empty: {path}")
+          print(f"Validated {count} scraped documents.")
+          PY
+
+      - name: Open pull request for scrape changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: automation/nightly-cofounder-scrape
+          delete-branch: true
+          title: "Update Cofounder upstream scrapes"
+          commit-message: "Update Cofounder upstream scrapes"
+          body: |
+            Nightly scrape update from Cofounder public markdown sources.
+
+            This PR is generated only when scraped upstream content changes.

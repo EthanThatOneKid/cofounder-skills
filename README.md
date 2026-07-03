@@ -120,6 +120,18 @@ Idea
 
 Framework applied end-to-end via the Tech Tree. See [`references/case-study-wazoo.md`](references/case-study-wazoo.md) for the full Wazoo execution log.
 
+## Upstream Cofounder references
+
+This repository keeps raw upstream Cofounder markdown under `references/upstream/`.
+
+Nightly GitHub Actions scrapes:
+
+- `https://docs.cofounder.co/llms-full.txt`
+- `https://cofounder.co/llms.txt`
+- Available markdown pages linked from the Cofounder site map
+
+The scrape opens a pull request only when tracked generated content changes. Skill files are not rewritten automatically; upstream changes should be reviewed and synthesized into `Skills/*/SKILL.md` deliberately.
+
 ---
 
 ## Skills Reference

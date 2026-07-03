@@ -1,0 +1,341 @@
+{
+  "sources": {
+    "docs_full_url": "https://docs.cofounder.co/llms-full.txt",
+    "site_map_url": "https://cofounder.co/llms.txt"
+  },
+  "output_dir": "references/upstream",
+  "count": 44,
+  "failure_count": 4,
+  "failures": [
+    {
+      "title": "Cofounder vs Polsia",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-polsia.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-polsia.html.md: https://cofounder.co/alternatives/cofounder-vs-polsia.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs Lovable",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-lovable.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-lovable.html.md: https://cofounder.co/alternatives/cofounder-vs-lovable.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs Replit",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-replit.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-replit.html.md: https://cofounder.co/alternatives/cofounder-vs-replit.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "A Day in the Life of the World\u2019s Most AI Forward Company",
+      "source_url": "https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company",
+      "error": "No markdown source found for https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company: https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company.md: returned HTML, not markdown; https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company.html.md: HTTP Error 404: Not Found; https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company: returned HTML, not markdown"
+    }
+  ],
+  "items": [
+    {
+      "title": "Introduction",
+      "source_url": "https://docs.cofounder.co/",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/index.md",
+      "sha256": "3c52a736e81bbcab922515d48f1ef911a41701c29ce0d255641a133943fc3b73"
+    },
+    {
+      "title": "Custom Agents",
+      "source_url": "https://docs.cofounder.co/agents/custom-agents",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/custom-agents.md",
+      "sha256": "d995cb0a2cb8d5a6075a91095816c1d0dc425e4765580a89a5d5a8694bb726f0"
+    },
+    {
+      "title": "Design Agent",
+      "source_url": "https://docs.cofounder.co/agents/design-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/design-agent.md",
+      "sha256": "a9ce7892552311af9504d344b55760cf016aa9718bbd432fd174a8eea05caf55"
+    },
+    {
+      "title": "Engineer Agent",
+      "source_url": "https://docs.cofounder.co/agents/engineer-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/engineer-agent.md",
+      "sha256": "e864b3708ebbb4c998cc05d10fc02d3b2e973f7344113eb012b7d26bd6109731"
+    },
+    {
+      "title": "Marketing Agent",
+      "source_url": "https://docs.cofounder.co/agents/marketing-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/marketing-agent.md",
+      "sha256": "a7be488d09a4520f90bb9432f25e6e70498d63148b3bfbe03fbcd42dfc1605fe"
+    },
+    {
+      "title": "Agents Overview",
+      "source_url": "https://docs.cofounder.co/agents/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/overview.md",
+      "sha256": "14e9179194607eb6e2240486bc3d71b669942c37d3f307cc3c5c7f9440a25e3f"
+    },
+    {
+      "title": "Sales Agent",
+      "source_url": "https://docs.cofounder.co/agents/sales-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/sales-agent.md",
+      "sha256": "5c82ccd4b7a27516c1d05eddfac2563978c1cc7dd17ffefad9827534cb8db4ec"
+    },
+    {
+      "title": "Skills",
+      "source_url": "https://docs.cofounder.co/agents/skills",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/agents/skills.md",
+      "sha256": "de6c082804ac0c161de20afd0ed9fe75a7fdd81d9d4856b2466f260487f9bc66"
+    },
+    {
+      "title": "What Happens After Onboarding",
+      "source_url": "https://docs.cofounder.co/get-started/after-onboarding",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/after-onboarding.md",
+      "sha256": "f0a47a209ebe0deb579297e924f51ba94b2f2ea51a4866acba9941088517b1f7"
+    },
+    {
+      "title": "Quickstart",
+      "source_url": "https://docs.cofounder.co/get-started/quickstart",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/quickstart.md",
+      "sha256": "25a84cc973e031ef141ea841b781ac30173b04dc3900538bbfa0a4eea8c47aaf"
+    },
+    {
+      "title": "Linear",
+      "source_url": "https://docs.cofounder.co/integrations/linear",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/linear.md",
+      "sha256": "77775e2660988f250a31d43d2764f6267d7487f1038d727c5925d0939e9c922c"
+    },
+    {
+      "title": "MCP",
+      "source_url": "https://docs.cofounder.co/integrations/mcp-toolkits",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/mcp-toolkits.md",
+      "sha256": "5b7b91079890eee1150112c8ebdca31da539809567295f48aaf264fc4457cfd6"
+    },
+    {
+      "title": "Integrations Overview",
+      "source_url": "https://docs.cofounder.co/integrations/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/overview.md",
+      "sha256": "d95f2c1deaef8c77463532eecb79f9f2ab22c94174be5fbbaa18142cf8c95d60"
+    },
+    {
+      "title": "Payments And Stripe",
+      "source_url": "https://docs.cofounder.co/integrations/payments-and-stripe",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/payments-and-stripe.md",
+      "sha256": "3970e03742259d2b69168d0f49d7082071c0245d4635d33c0f2c04b002ed5fdf"
+    },
+    {
+      "title": "GitHub",
+      "source_url": "https://docs.cofounder.co/managed-services/github",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/github.md",
+      "sha256": "7ee1f5e4be4f4f2b105067362bd73319ee0d803ab23e916dbe53b2cc8d23a276"
+    },
+    {
+      "title": "Migrations",
+      "source_url": "https://docs.cofounder.co/managed-services/migrations",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/migrations.md",
+      "sha256": "d6fd7af52c2537aff8695548bacd03c67c86845ccb302a548f336eb58dd185e2"
+    },
+    {
+      "title": "Managed Services",
+      "source_url": "https://docs.cofounder.co/managed-services/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/overview.md",
+      "sha256": "b016e6fe3fe0a7c435bbcc33484b74e3c04e5a157d37011268893653730a2abf"
+    },
+    {
+      "title": "Postmark",
+      "source_url": "https://docs.cofounder.co/managed-services/postmark",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/postmark.md",
+      "sha256": "36fbc676358d45a67e04ee3faceab32c898459852de957761bccb5c81dd9b9d6"
+    },
+    {
+      "title": "Supabase",
+      "source_url": "https://docs.cofounder.co/managed-services/supabase",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/supabase.md",
+      "sha256": "fa39804c7ca872000d07072533e9f5da89d67995ad8965bd8957c973a2a792c8"
+    },
+    {
+      "title": "Vercel",
+      "source_url": "https://docs.cofounder.co/managed-services/vercel",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/managed-services/vercel.md",
+      "sha256": "5dd1c5903b5e5ef8e446f8c28f24b1a4010c2668d7f3553ef18e0cfe2a626dc3"
+    },
+    {
+      "title": "Environments",
+      "source_url": "https://docs.cofounder.co/publishing/environments",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/publishing/environments.md",
+      "sha256": "2cde6d44261fccf34398c2ba3b008bdb98a19b26243c1645301bb5af52ad13d8"
+    },
+    {
+      "title": "Publishing",
+      "source_url": "https://docs.cofounder.co/publishing/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/publishing/overview.md",
+      "sha256": "175dace2f6c70294d939ef692f67285d9589ded6687c30a1f96a676cadfaebb7"
+    },
+    {
+      "title": "AI Settings",
+      "source_url": "https://docs.cofounder.co/settings/ai-settings",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/ai-settings.md",
+      "sha256": "2bfd6902514daef8831e7b1981299c3d1b2f74e16960f954b37dec5320c7ea69"
+    },
+    {
+      "title": "Company Context",
+      "source_url": "https://docs.cofounder.co/settings/company-context",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/company-context.md",
+      "sha256": "3f1292f466201f9bee2fcd8fd07950ae962cd7764733a30a5cecdf5656d4a881"
+    },
+    {
+      "title": "Domains",
+      "source_url": "https://docs.cofounder.co/settings/domains",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/domains.md",
+      "sha256": "945bec82943c3133db8890323a9597b9c9fb8069c27cd12f0fecfed7ab7241a2"
+    },
+    {
+      "title": "Environment Files & Secrets",
+      "source_url": "https://docs.cofounder.co/settings/env-files-and-secrets",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/env-files-and-secrets.md",
+      "sha256": "1e5bf87e69f641bfb5b333752ee89ee36f72c3bcaa90ad99186e66e42f08a6a1"
+    },
+    {
+      "title": "Inbox",
+      "source_url": "https://docs.cofounder.co/settings/inbox",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/inbox.md",
+      "sha256": "796250611f5593b1da3686223e5d33b4b04ddd16c8f1dd61db65ef008b166f58"
+    },
+    {
+      "title": "Canvas",
+      "source_url": "https://docs.cofounder.co/workspace/canvas",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/canvas.md",
+      "sha256": "08cd41a08e8bbca8a5aad682a0c7f8ee0624258fb5fa5636ffd1420bcc685609"
+    },
+    {
+      "title": "Company",
+      "source_url": "https://docs.cofounder.co/workspace/company",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/company.md",
+      "sha256": "0591128afb2bb5fcafafda6c1a0ac64b351b43a80305de7fdfd5ee0267e197eb"
+    },
+    {
+      "title": "Departments",
+      "source_url": "https://docs.cofounder.co/workspace/departments",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/departments.md",
+      "sha256": "03868824174d21c9052b3a61e811eb9892193f3adabd0ab23bdecd17d283dfe0"
+    },
+    {
+      "title": "Library",
+      "source_url": "https://docs.cofounder.co/workspace/library",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/library.md",
+      "sha256": "0d195a36176a3b08b2b9f5e75fa983f52d0ce2a055e70dd4c058759f24db042c"
+    },
+    {
+      "title": "Marketing Department",
+      "source_url": "https://docs.cofounder.co/workspace/marketing-department",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/marketing-department.md",
+      "sha256": "249bda7aed5a8fc87066fbe8af9442876285a4290cff32bc63ed1793cde6c190"
+    },
+    {
+      "title": "Roadmap",
+      "source_url": "https://docs.cofounder.co/workspace/roadmap",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/roadmap.md",
+      "sha256": "8c83b17b6c01871494a4c97b492e9c0ba501731a97b3be09dc0fadfaa78dd530"
+    },
+    {
+      "title": "Tasks",
+      "source_url": "https://docs.cofounder.co/workspace/tasks",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/workspace/tasks.md",
+      "sha256": "3a702567ea0fa3717db756fc9d8e3edfac1361abfe7097207991187f9ad7513d"
+    },
+    {
+      "title": "How to start a company \u2014 Cofounder",
+      "source_url": "https://cofounder.co/how-to/start.md",
+      "fetched_from": "https://cofounder.co/how-to/start.md",
+      "path": "cofounder.co/how-to/start.md",
+      "sha256": "fef4ea0e9b7719dee5580912dfb120071bb65ac37380e7c2d8b58a840f41ba75"
+    },
+    {
+      "title": "How to build with Cofounder",
+      "source_url": "https://cofounder.co/how-to/build.md",
+      "fetched_from": "https://cofounder.co/how-to/build.md",
+      "path": "cofounder.co/how-to/build.md",
+      "sha256": "9edb3e5c41f820507dea0f3719eb07646f718202acffeb1a62a659e883dc1d06"
+    },
+    {
+      "title": "How to sell with Cofounder",
+      "source_url": "https://cofounder.co/how-to/sell.md",
+      "fetched_from": "https://cofounder.co/how-to/sell.md",
+      "path": "cofounder.co/how-to/sell.md",
+      "sha256": "d0b020ea44db6f86cba7928d50f7e129e754f65559a8da67ef29d2f810a78b60"
+    },
+    {
+      "title": "How to scale with Cofounder",
+      "source_url": "https://cofounder.co/how-to/scale.md",
+      "fetched_from": "https://cofounder.co/how-to/scale.md",
+      "path": "cofounder.co/how-to/scale.md",
+      "sha256": "a9c40926c98afb46b6080dfed7eca0d0ed241e1b5635e6eb24b039fc6630c6a4"
+    },
+    {
+      "title": "Yohei Nakajima is building ActiveGraph with Cofounder",
+      "source_url": "https://cofounder.co/resources/yohei-nakajima-activegraph-cofounder.md",
+      "fetched_from": "https://cofounder.co/resources/yohei-nakajima-activegraph-cofounder.md",
+      "path": "cofounder.co/resources/yohei-nakajima-activegraph-cofounder.md",
+      "sha256": "0a657a8ecd3d56f8ca507ed3b0044f9b75e32a7d12cd1e4b9834bdad0403d96f"
+    },
+    {
+      "title": "Daria Ansh, Founder of Veery, is building safer cosmetic dentistry with Cofounder",
+      "source_url": "https://cofounder.co/resources/daria-ansh-veery-safer-cosmetic-dentistry.md",
+      "fetched_from": "https://cofounder.co/resources/daria-ansh-veery-safer-cosmetic-dentistry.md",
+      "path": "cofounder.co/resources/daria-ansh-veery-safer-cosmetic-dentistry.md",
+      "sha256": "93da9c829070f84af906515f7aba7052a88565ce5e103eaebcc292853ab7b668"
+    },
+    {
+      "title": "Announcing Cofounder 2: Run an entire company with AI",
+      "source_url": "https://cofounder.co/resources/introducing-cofounder-2.md",
+      "fetched_from": "https://cofounder.co/resources/introducing-cofounder-2.md",
+      "path": "cofounder.co/resources/introducing-cofounder-2.md",
+      "sha256": "dfd516e0376b29ac5af221ccfc3bb21c0f25c0fdaa86e9c702648a9ce95ab1c3"
+    },
+    {
+      "title": "An Update on Cofounder 1",
+      "source_url": "https://cofounder.co/resources/an-update-on-cofounder-1.md",
+      "fetched_from": "https://cofounder.co/resources/an-update-on-cofounder-1.md",
+      "path": "cofounder.co/resources/an-update-on-cofounder-1.md",
+      "sha256": "4800983d2f091b59e1e9887c4c5317154ef3ea6ea7847a9d9af4ab64613df816"
+    },
+    {
+      "title": "Agent-Native Engineering",
+      "source_url": "https://cofounder.co/resources/agent-native-engineering.md",
+      "fetched_from": "https://cofounder.co/resources/agent-native-engineering.md",
+      "path": "cofounder.co/resources/agent-native-engineering.md",
+      "sha256": "2f80881c88c40da07f44acde044f7b7d34df41311bbbe169f212a7963be44f58"
+    },
+    {
+      "title": "Announcing Cofounder 1.5 and our $8.7 Million Seed Round",
+      "source_url": "https://cofounder.co/resources/cofounder-1-5-seed-round.md",
+      "fetched_from": "https://cofounder.co/resources/cofounder-1-5-seed-round.md",
+      "path": "cofounder.co/resources/cofounder-1-5-seed-round.md",
+      "sha256": "331d85e3dff57562fe3eef157608f99e80c7c01f67dd2e234b01d253700092d7"
+    }
+  ]
+}
