@@ -1,17 +1,20 @@
 # Cofounder Skills
 
+[![skills.sh](https://skills.sh/b/wazootech/wiki)](https://skills.sh/wazootech/wiki)
+
 A skill library that brings [Cofounder](https://cofounder.co) — the autonomous venture-building engine — to any AI agent, for free, with your model of choice.
 
-This library is a free, open re-implementation of the Cofounder methodology, broken into itemized Agent Skills that map to the four phases of building a company:
+This library is a free, open re-implementation of the Cofounder methodology, organized around one master Agent Skill with subcommands:
 
-1. **[Start](/cofounder-skills/start/)** — Idea validation, wedge market, naming, domain
-2. **[Build](/cofounder-skills/build/)** — Spec, repository, CI/CD, backend, frontend, deployment
-3. **[Sell](/cofounder-skills/sell/)** — Brand, website, first user, ICP, sales motion, outreach, marketing
-4. **[Scale](/cofounder-skills/scale/)** — Analytics, support, unit economics, expansion
+1. **`cofounder start`** — Idea validation, wedge market, naming, domain
+2. **`cofounder plan`** — Spec, problem statement, platform choice, MVP cuts
+3. **`cofounder build`** — Repository, CI/CD, backend, frontend, deployment
+4. **`cofounder brand`** — Brand story, values, visual identity
+5. **`cofounder launch`** — Website, first users, ICP, sales motion, outreach
+6. **`cofounder scale`** — Analytics, support, unit economics, expansion
 
 > **Note:** These skills are informational — they guide you through Cofounder-style workflows but do not replace Cofounder's managed execution (Vercel infra, Supabase auth, Stripe billing, PostHog analytics, Fin support, etc.). Where a step says "let Cofounder handle X", that refers to the managed Cofounder platform which requires a paid subscription.
 
----
 
 ## Onboarding
 
@@ -25,26 +28,21 @@ npx skills add https://github.com/EthanThatOneKid/cofounder-skills
 
 Then follow this flow:
 
-1. Start with [`cofounder-start`](/cofounder-skills/start/) to validate the idea, wedge market, name, and domain.
-2. Move into [`cofounder-plan`](/cofounder-skills/plan/) to turn the idea into a tight MVP spec.
-3. Continue through [`cofounder-build`](/cofounder-skills/build/), [`cofounder-brand`](/cofounder-skills/brand/), [`cofounder-launch`](/cofounder-skills/launch/), and [`cofounder-scale`](/cofounder-skills/scale/) as needed.
+1. Start with `cofounder start` to validate the idea, wedge market, name, and domain.
+2. Move into `cofounder plan` to turn the idea into a tight MVP spec.
+3. Continue through `cofounder build`, `cofounder brand`, `cofounder launch`, and `cofounder scale` as needed.
 
-You can use these skills one at a time or as a full end-to-end sequence.
+You can use the master skill one phase at a time or as a full end-to-end sequence.
 
----
 
 ## Skill Index
 
-| Skill | Phase | Description |
+| Skill | Scope | Description |
 |---|---|---|
-| [`cofounder-start`](/cofounder-skills/start/) | Start | Evaluate ideas, narrow wedge markets, pick names and domains |
-| [`cofounder-plan`](/cofounder-skills/plan/) | Start | Turn an idea into a focused MVP spec |
-| [`cofounder-build`](/cofounder-skills/build/) | Build | Scaffold codebase, CI/CD, backend, frontend, deployment pipeline |
-| [`cofounder-brand`](/cofounder-skills/brand/) | Sell | Craft brand story, values, and visual identity |
-| [`cofounder-launch`](/cofounder-skills/launch/) | Sell | Build website, get first users, run early sales motions |
-| [`cofounder-scale`](/cofounder-skills/scale/) | Scale | Add analytics, support, unit economics, and expansion planning |
+| [`cofounder`](/cofounder-skills/cofounder/) | Start → Scale | Master skill with `start`, `plan`, `build`, `brand`, `launch`, and `scale` subcommands |
 
----
+Legacy compatibility skills remain in the repo for older prompts, but new work should use `cofounder`.
+
 
 ## What is Cofounder?
 
@@ -54,7 +52,6 @@ The Cofounder Tech Tree enforces a strict dependency graph: "one right way" to b
 
 This skill library captures the same methodology in plain Agent Skills format — so you can run Cofounder-style workflows with any AI agent, any model, any infrastructure.
 
----
 
 ## Framework: AI-Driven Startup Execution Engine
 
@@ -79,7 +76,6 @@ This skill library captures the same methodology in plain Agent Skills format �
 | Scale | Optimization & Sales | Locked |
 | Mature | Compliance & Longevity | Locked |
 
----
 
 ## Tech Tree Node Map
 
@@ -94,7 +90,7 @@ Idea
      ├─ Design visual identity (agent)
      └─ Set up brand assets (agent)
  └─ Build — Product & Web Engineering
-     ├─ Come up with spec (cofounder-plan skill)
+     ├─ Come up with spec (cofounder plan)
      ├─ Scaffold backend (agent)
      ├─ Scaffold frontend (agent)
      ├─ Set up CI/CD (agent)
@@ -114,7 +110,6 @@ Idea
      └─ (human approval gate)
 ```
 
----
 
 ## Case Study: Wazoo Technologies
 
@@ -132,7 +127,6 @@ Nightly GitHub Actions scrapes:
 
 The scrape opens a pull request only when tracked generated content changes. Skill files are not rewritten automatically; upstream changes should be reviewed and synthesized into `Skills/*/SKILL.md` deliberately.
 
----
 
 ## Skills Reference
 
@@ -142,23 +136,18 @@ Each skill lives in its own directory under `Skills/`:
 cofounder-skills/
 ├── README.md
 ├── Skills/
-│   ├── cofounder-start/
+│   ├── cofounder/
 │   │   └── SKILL.md
-│   ├── cofounder-plan/
-│   │   └── SKILL.md
-│   ├── cofounder-build/
-│   │   └── SKILL.md
-│   ├── cofounder-brand/
-│   │   └── SKILL.md
-│   ├── cofounder-launch/
-│   │   └── SKILL.md
-│   └── cofounder-scale/
-│       └── SKILL.md
+│   ├── cofounder-start/   # legacy compatibility
+│   ├── cofounder-plan/    # legacy compatibility
+│   ├── cofounder-build/   # legacy compatibility
+│   ├── cofounder-brand/   # legacy compatibility
+│   ├── cofounder-launch/  # legacy compatibility
+│   └── cofounder-scale/   # legacy compatibility
 └── references/
     └── case-study-wazoo.md
 ```
 
----
 
 ## Source
 
