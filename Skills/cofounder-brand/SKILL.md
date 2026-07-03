@@ -185,6 +185,13 @@ The Cofounder platform can work with you to create a brand guideline — story, 
 
 When running this skill independently, you are executing this brand-building function manually.
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/sell.md`
+- `references/upstream/docs.cofounder.co/agents/design-agent.md`
+- `references/upstream/docs.cofounder.co/workspace/marketing-department.md`
+
 ---
 
 ## Outputs

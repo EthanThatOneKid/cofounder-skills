@@ -236,6 +236,14 @@ The Cofounder platform can analyze expansion opportunities by combining product 
 
 When running this skill independently, you are executing the analysis and expansion planning manually.
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/scale.md`
+- `references/upstream/docs.cofounder.co/settings/company-context.md`
+- `references/upstream/docs.cofounder.co/settings/env-files-and-secrets.md`
+- `references/upstream/docs.cofounder.co/workspace/tasks.md`
+
 ---
 
 ## Outputs

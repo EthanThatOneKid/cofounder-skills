@@ -129,6 +129,13 @@ The Cofounder platform uses **Plan Mode** to help with this — an agent helps t
 
 When running this skill independently, you are executing the plan-mode function manually.
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/start.md`
+- `references/upstream/cofounder.co/how-to/build.md`
+- `references/upstream/docs.cofounder.co/workspace/roadmap.md`
+
 ---
 
 ## Key Constraints to Reinforce

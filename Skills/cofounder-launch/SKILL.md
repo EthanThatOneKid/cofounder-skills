@@ -222,6 +222,15 @@ The Cofounder platform can turn your ICP into outreach angles, draft concise mes
 
 When running this skill independently, you are executing the outreach and sales function manually.
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/sell.md`
+- `references/upstream/docs.cofounder.co/agents/marketing-agent.md`
+- `references/upstream/docs.cofounder.co/agents/sales-agent.md`
+- `references/upstream/docs.cofounder.co/workspace/marketing-department.md`
+- `references/upstream/docs.cofounder.co/workspace/tasks.md`
+
 ---
 
 ## Phase 8: Do Marketing

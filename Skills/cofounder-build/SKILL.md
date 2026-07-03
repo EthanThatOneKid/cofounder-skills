@@ -258,6 +258,18 @@ Cost management strategies:
 - Set up billing alerts
 - Optimize function execution times
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/build.md`
+- `references/upstream/docs.cofounder.co/managed-services/overview.md`
+- `references/upstream/docs.cofounder.co/managed-services/github.md`
+- `references/upstream/docs.cofounder.co/managed-services/supabase.md`
+- `references/upstream/docs.cofounder.co/managed-services/vercel.md`
+- `references/upstream/docs.cofounder.co/managed-services/migrations.md`
+- `references/upstream/docs.cofounder.co/integrations/payments-and-stripe.md`
+- `references/upstream/docs.cofounder.co/managed-services/postmark.md`
+
 ---
 
 ## Outputs

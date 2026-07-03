@@ -137,6 +137,13 @@ The Cofounder platform handles this phase by:
 
 When running this skill independently (without Cofounder), you are the agent executing these steps manually.
 
+## Upstream References
+
+Use the raw upstream notes under `references/upstream/` when updating this skill:
+- `references/upstream/cofounder.co/how-to/start.md`
+- `references/upstream/docs.cofounder.co/workspace/roadmap.md`
+- `references/upstream/docs.cofounder.co/settings/domains.md`
+
 ---
 
 ## Outputs
