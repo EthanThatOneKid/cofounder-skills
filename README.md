@@ -41,8 +41,6 @@ You can use the master skill one phase at a time or as a full end-to-end sequenc
 |---|---|---|
 | [`cofounder`](/cofounder-skills/cofounder/) | Start → Scale | Master skill with `start`, `plan`, `build`, `brand`, `launch`, and `scale` subcommands |
 
-Legacy compatibility skills remain in the repo for older prompts, but new work should use `cofounder`.
-
 
 ## What is Cofounder?
 
@@ -136,14 +134,8 @@ Each skill lives in its own directory under `Skills/`:
 cofounder-skills/
 ├── README.md
 ├── Skills/
-│   ├── cofounder/
-│   │   └── SKILL.md
-│   ├── cofounder-start/   # legacy compatibility
-│   ├── cofounder-plan/    # legacy compatibility
-│   ├── cofounder-build/   # legacy compatibility
-│   ├── cofounder-brand/   # legacy compatibility
-│   ├── cofounder-launch/  # legacy compatibility
-│   └── cofounder-scale/   # legacy compatibility
+│   └── cofounder/
+│       └── SKILL.md
 └── references/
     └── case-study-wazoo.md
 ```
