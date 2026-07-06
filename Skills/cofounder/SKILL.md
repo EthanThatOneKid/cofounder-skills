@@ -149,15 +149,15 @@ Output:
 
 ## Upstream references
 
-Use the raw upstream notes under `references/upstream/` as source material for the relevant subcommand.
+Use the raw upstream notes under `Skills/cofounder/references/upstream/` as source material for the relevant subcommand.
 
-- `references/upstream/cofounder.co/how-to/start.md`
-- `references/upstream/cofounder.co/how-to/build.md`
-- `references/upstream/cofounder.co/how-to/sell.md`
-- `references/upstream/cofounder.co/how-to/scale.md`
-- `references/upstream/docs.cofounder.co/workspace/roadmap.md`
-- `references/upstream/docs.cofounder.co/workspace/marketing-department.md`
-- `references/upstream/docs.cofounder.co/agents/design-agent.md`
-- `references/upstream/docs.cofounder.co/agents/marketing-agent.md`
-- `references/upstream/docs.cofounder.co/agents/sales-agent.md`
-- `references/upstream/docs.cofounder.co/workspace/tasks.md`
+- `Skills/cofounder/references/upstream/cofounder.co/how-to/start.md`
+- `Skills/cofounder/references/upstream/cofounder.co/how-to/build.md`
+- `Skills/cofounder/references/upstream/cofounder.co/how-to/sell.md`
+- `Skills/cofounder/references/upstream/cofounder.co/how-to/scale.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/workspace/roadmap.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/workspace/marketing-department.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/agents/design-agent.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/agents/marketing-agent.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/agents/sales-agent.md`
+- `Skills/cofounder/references/upstream/docs.cofounder.co/workspace/tasks.md`

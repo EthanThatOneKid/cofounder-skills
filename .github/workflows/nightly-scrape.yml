@@ -30,12 +30,12 @@ jobs:
           import json
           from pathlib import Path
 
-          manifest = json.loads(Path("references/upstream/manifest.json").read_text())
+          manifest = json.loads(Path("Skills/cofounder/references/upstream/manifest.json").read_text())
           count = manifest.get("count", 0)
           if count < 10:
               raise SystemExit(f"Expected at least 10 scraped documents, got {count}")
           for item in manifest["items"]:
-              path = Path("references/upstream") / item["path"]
+              path = Path("Skills/cofounder/references/upstream") / item["path"]
               if not path.exists():
                   raise SystemExit(f"Missing generated file: {path}")
               if not path.read_text().strip():

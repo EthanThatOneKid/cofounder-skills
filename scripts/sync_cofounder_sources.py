@@ -14,7 +14,7 @@ from urllib.request import Request, urlopen
 
 DEFAULT_DOCS_FULL_URL = "https://docs.cofounder.co/llms-full.txt"
 DEFAULT_SITE_MAP_URL = "https://cofounder.co/llms.txt"
-DEFAULT_OUTPUT_DIR = Path("references/upstream")
+DEFAULT_OUTPUT_DIR = Path("Skills/cofounder/references/upstream")
 DEFAULT_MANIFEST = DEFAULT_OUTPUT_DIR / "manifest.json"
 
 
