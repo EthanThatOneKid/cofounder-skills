@@ -3,7 +3,7 @@
     "docs_full_url": "https://docs.cofounder.co/llms-full.txt",
     "site_map_url": "https://cofounder.co/llms.txt"
   },
-  "output_dir": "references/upstream",
+  "output_dir": "Skills/cofounder/references/upstream",
   "count": 44,
   "failure_count": 4,
   "failures": [

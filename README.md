@@ -111,11 +111,11 @@ Idea
 
 ## Case Study: Wazoo Technologies
 
-Framework applied end-to-end via the Tech Tree. See [`references/case-study-wazoo.md`](references/case-study-wazoo.md) for the full Wazoo execution log.
+Framework applied end-to-end via the Tech Tree. See [`Skills/cofounder/references/case-study-wazoo.md`](references/case-study-wazoo.md) for the full Wazoo execution log.
 
 ## Upstream Cofounder references
 
-This repository keeps raw upstream Cofounder markdown under `references/upstream/`.
+This repository keeps raw upstream Cofounder markdown under `Skills/cofounder/references/upstream/`.
 
 Nightly GitHub Actions scrapes:
 
