@@ -46,6 +46,7 @@ jobs:
       - name: Open pull request for scrape changes
         uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ secrets.COFUNDER_SCRAPE_PR_TOKEN || github.token }}
           branch: automation/nightly-cofounder-scrape
           delete-branch: true
           title: "Update Cofounder upstream scrapes"

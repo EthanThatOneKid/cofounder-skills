@@ -1,6 +1,6 @@
 # Cofounder Skills
 
-[![skills.sh](https://skills.sh/b/wazootech/wiki)](https://skills.sh/wazootech/wiki)
+[![skills.sh](https://skills.sh/b/ethanthatonekid/cofounder-skills)](https://www.skills.sh/ethanthatonekid/cofounder-skills)
 
 A skill library that brings [Cofounder](https://cofounder.co) — the autonomous venture-building engine — to any AI agent, for free, with your model of choice.
 
