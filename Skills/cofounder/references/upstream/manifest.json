@@ -4,8 +4,8 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 44,
-  "failure_count": 4,
+  "count": 45,
+  "failure_count": 5,
   "failures": [
     {
       "title": "Cofounder vs Polsia",
@@ -21,6 +21,11 @@
       "title": "Cofounder vs Replit",
       "source_url": "https://cofounder.co/alternatives/cofounder-vs-replit.html.md",
       "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-replit.html.md: https://cofounder.co/alternatives/cofounder-vs-replit.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs FlutterFlow",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: HTTP Error 404: Not Found"
     },
     {
       "title": "A Day in the Life of the World\u2019s Most AI Forward Company",
@@ -294,6 +299,13 @@
       "fetched_from": "https://cofounder.co/how-to/scale.md",
       "path": "cofounder.co/how-to/scale.md",
       "sha256": "a9c40926c98afb46b6080dfed7eca0d0ed241e1b5635e6eb24b039fc6630c6a4"
+    },
+    {
+      "title": "Cofounder and Ramp bring incorporation to founders",
+      "source_url": "https://cofounder.co/resources/cofounder-partners-with-ramp-to-offer-incorporation.md",
+      "fetched_from": "https://cofounder.co/resources/cofounder-partners-with-ramp-to-offer-incorporation.md",
+      "path": "cofounder.co/resources/cofounder-partners-with-ramp-to-offer-incorporation.md",
+      "sha256": "e52ca0e91e98e44b24b25ed68200340d810f2f9daccd19a6d52d227a765fa471"
     },
     {
       "title": "Yohei Nakajima is building ActiveGraph with Cofounder",
