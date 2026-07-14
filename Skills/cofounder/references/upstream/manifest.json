@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 45,
+  "count": 46,
   "failure_count": 5,
   "failures": [
     {
@@ -175,6 +175,27 @@
       "sha256": "5dd1c5903b5e5ef8e446f8c28f24b1a4010c2668d7f3553ef18e0cfe2a626dc3"
     },
     {
+      "title": "Environments",
+      "source_url": "https://docs.cofounder.co/publishing/environments",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/publishing/environments.md",
+      "sha256": "2cde6d44261fccf34398c2ba3b008bdb98a19b26243c1645301bb5af52ad13d8"
+    },
+    {
+      "title": "Publishing",
+      "source_url": "https://docs.cofounder.co/publishing/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/publishing/overview.md",
+      "sha256": "5c9b68df135c9701c6711616b15c23f94c787f83dc203c6baa848583dcebe45e"
+    },
+    {
+      "title": "Requesting a deploy",
+      "source_url": "https://docs.cofounder.co/publishing/request-deploy",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/publishing/request-deploy.md",
+      "sha256": "634eb16c07cba0ace2d744459266ff293b097815db072330cf3a81fe81380d31"
+    },
+    {
       "title": "AI Settings",
       "source_url": "https://docs.cofounder.co/settings/ai-settings",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -208,20 +229,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/settings/inbox.md",
       "sha256": "796250611f5593b1da3686223e5d33b4b04ddd16c8f1dd61db65ef008b166f58"
-    },
-    {
-      "title": "Environments",
-      "source_url": "https://docs.cofounder.co/publishing/environments",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/publishing/environments.md",
-      "sha256": "2cde6d44261fccf34398c2ba3b008bdb98a19b26243c1645301bb5af52ad13d8"
-    },
-    {
-      "title": "Publishing",
-      "source_url": "https://docs.cofounder.co/publishing/overview",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/publishing/overview.md",
-      "sha256": "175dace2f6c70294d939ef692f67285d9589ded6687c30a1f96a676cadfaebb7"
     },
     {
       "title": "Canvas",
