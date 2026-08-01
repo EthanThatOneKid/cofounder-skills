@@ -11,7 +11,7 @@ Ramp and Cofounder are partnering to bring company formation into Cofounder. Fou
 
 Today, [Ramp announced Ramp for Agents](https://ramp.com/blog/builders-can-now-access-financing-and-incorporation-via-ramp-on-day-0), a broader effort to let builders use an AI agent for incorporation, Ramp applications, and finance workflows. Cofounder is one of Ramp's launch partners, and our live Cofounder integration starts with [incorporation through Ramp](https://ramp.com/partners/cofounder).
 
-Founders using Cofounder can bring company formation into the same AI workflow where the rest of the company is being built: directly in Cofounder. The incorporation flow still pauses for founder approvals, attestations, and final review, but the setup no longer has to live in a separate stack of forms and tabs.
+Founders using Cofounder can bring [company formation](/incorporation) into the same AI workflow where the rest of the company is being built: directly in Cofounder. The incorporation flow still pauses for founder approvals, attestations, and final review, but the setup no longer has to live in a separate stack of forms and tabs.
 
 This gives Cofounder's finance department a starting point: incorporation today, with banking and financial operations as the next frontier for the partnership.
 
