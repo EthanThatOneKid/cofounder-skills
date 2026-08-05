@@ -25,4 +25,10 @@ From the Skills UI, you can:
 
 Built-in skills can be read-only. Custom skills can be edited or deleted.
 
+You can also manage skills from an agent panel or agent editor:
+
+- custom agents can add or remove the skills attached to them
+- default agents can add or remove extra uploaded skills without changing the
+  built-in skills that ship with that default agent
+
 The **Skills** tab starts with create and import actions. If your workspace has no skills yet, Cofounder shows an empty state with those same actions.
