@@ -5,7 +5,7 @@
   },
   "output_dir": "Skills/cofounder/references/upstream",
   "count": 46,
-  "failure_count": 5,
+  "failure_count": 8,
   "failures": [
     {
       "title": "Cofounder vs Polsia",
@@ -26,6 +26,21 @@
       "title": "Cofounder vs FlutterFlow",
       "source_url": "https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md",
       "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs Bolt",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-bolt.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-bolt.html.md: https://cofounder.co/alternatives/cofounder-vs-bolt.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs v0",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-v0.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-v0.html.md: https://cofounder.co/alternatives/cofounder-vs-v0.html.md: HTTP Error 404: Not Found"
+    },
+    {
+      "title": "Cofounder vs Claude Code",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md",
+      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md: https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md: HTTP Error 404: Not Found"
     },
     {
       "title": "A Day in the Life of the World\u2019s Most AI Forward Company",
