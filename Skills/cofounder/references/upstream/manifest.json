@@ -97,27 +97,6 @@
       "sha256": "3c52a736e81bbcab922515d48f1ef911a41701c29ce0d255641a133943fc3b73"
     },
     {
-      "title": "What Happens After Onboarding",
-      "source_url": "https://docs.cofounder.co/get-started/after-onboarding",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/after-onboarding.md",
-      "sha256": "f0a47a209ebe0deb579297e924f51ba94b2f2ea51a4866acba9941088517b1f7"
-    },
-    {
-      "title": "Quickstart",
-      "source_url": "https://docs.cofounder.co/get-started/quickstart",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/quickstart.md",
-      "sha256": "4aeb9b68172d575a5d0b76b4aa17f1cd139e6a1642f35cdef40ca801f5bdf736"
-    },
-    {
-      "title": "What Cofounder Does",
-      "source_url": "https://docs.cofounder.co/get-started/what-cofounder-does",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/what-cofounder-does.md",
-      "sha256": "210e8e9e7af8cc13f0ae890db1d24798820dbf14e93b5cb110ea16554df2868b"
-    },
-    {
       "title": "Custom Agents",
       "source_url": "https://docs.cofounder.co/agents/custom-agents",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -165,6 +144,27 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/agents/skills.md",
       "sha256": "a5446d00bff5319102cdd04e566b8d01b3fb162671c69d5cdc5638bdcfa8a127"
+    },
+    {
+      "title": "What Happens After Onboarding",
+      "source_url": "https://docs.cofounder.co/get-started/after-onboarding",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/after-onboarding.md",
+      "sha256": "f0a47a209ebe0deb579297e924f51ba94b2f2ea51a4866acba9941088517b1f7"
+    },
+    {
+      "title": "Quickstart",
+      "source_url": "https://docs.cofounder.co/get-started/quickstart",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/quickstart.md",
+      "sha256": "4aeb9b68172d575a5d0b76b4aa17f1cd139e6a1642f35cdef40ca801f5bdf736"
+    },
+    {
+      "title": "What Cofounder Does",
+      "source_url": "https://docs.cofounder.co/get-started/what-cofounder-does",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/what-cofounder-does.md",
+      "sha256": "210e8e9e7af8cc13f0ae890db1d24798820dbf14e93b5cb110ea16554df2868b"
     },
     {
       "title": "Linear",
