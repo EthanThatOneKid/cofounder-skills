@@ -92,34 +92,6 @@
       "sha256": "210e8e9e7af8cc13f0ae890db1d24798820dbf14e93b5cb110ea16554df2868b"
     },
     {
-      "title": "Linear",
-      "source_url": "https://docs.cofounder.co/integrations/linear",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/integrations/linear.md",
-      "sha256": "77775e2660988f250a31d43d2764f6267d7487f1038d727c5925d0939e9c922c"
-    },
-    {
-      "title": "MCP",
-      "source_url": "https://docs.cofounder.co/integrations/mcp-toolkits",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/integrations/mcp-toolkits.md",
-      "sha256": "5b7b91079890eee1150112c8ebdca31da539809567295f48aaf264fc4457cfd6"
-    },
-    {
-      "title": "Integrations Overview",
-      "source_url": "https://docs.cofounder.co/integrations/overview",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/integrations/overview.md",
-      "sha256": "c9b2115e6084ff48b64197e17a829297ea3ae1077ddf63c490f9030a30307899"
-    },
-    {
-      "title": "Payments And Stripe",
-      "source_url": "https://docs.cofounder.co/integrations/payments-and-stripe",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/integrations/payments-and-stripe.md",
-      "sha256": "bd2635e6231bf083a82d40a500290e6de3754e314417f62b3dd447a18bebd8a2"
-    },
-    {
       "title": "GitHub",
       "source_url": "https://docs.cofounder.co/managed-services/github",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -153,6 +125,34 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/managed-services/vercel.md",
       "sha256": "5dd1c5903b5e5ef8e446f8c28f24b1a4010c2668d7f3553ef18e0cfe2a626dc3"
+    },
+    {
+      "title": "Linear",
+      "source_url": "https://docs.cofounder.co/integrations/linear",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/linear.md",
+      "sha256": "77775e2660988f250a31d43d2764f6267d7487f1038d727c5925d0939e9c922c"
+    },
+    {
+      "title": "MCP",
+      "source_url": "https://docs.cofounder.co/integrations/mcp-toolkits",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/mcp-toolkits.md",
+      "sha256": "5b7b91079890eee1150112c8ebdca31da539809567295f48aaf264fc4457cfd6"
+    },
+    {
+      "title": "Integrations Overview",
+      "source_url": "https://docs.cofounder.co/integrations/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/overview.md",
+      "sha256": "c9b2115e6084ff48b64197e17a829297ea3ae1077ddf63c490f9030a30307899"
+    },
+    {
+      "title": "Payments And Stripe",
+      "source_url": "https://docs.cofounder.co/integrations/payments-and-stripe",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/integrations/payments-and-stripe.md",
+      "sha256": "bd2635e6231bf083a82d40a500290e6de3754e314417f62b3dd447a18bebd8a2"
     },
     {
       "title": "Environments",
