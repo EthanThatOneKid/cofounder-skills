@@ -330,27 +330,6 @@
       "sha256": "b37fe983eec0bbc1052c3620391ebb8503dc10f44003df550cd9c55bc3da903a"
     },
     {
-      "title": "Connect an Agent",
-      "source_url": "https://docs.cofounder.co/cli/get-started/connect-an-agent",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/connect-an-agent.md",
-      "sha256": "977dadd5762ab1bd461294afbb273161bb2075a53e0d4cf01e26e51d5e8cc84a"
-    },
-    {
-      "title": "Install the CLI",
-      "source_url": "https://docs.cofounder.co/cli/get-started/install-the-cli",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/install-the-cli.md",
-      "sha256": "0369c0746809dea99ab88d4f9315d19f49a231d0de2e253a734ce07e62900713"
-    },
-    {
-      "title": "Quickstart",
-      "source_url": "https://docs.cofounder.co/cli/get-started/quickstart",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/quickstart.md",
-      "sha256": "871b7e0f13a786acc581aa92d87951c9450e7d16e84e177c4bc34c9f7725f279"
-    },
-    {
       "title": "Communicate and Sell",
       "source_url": "https://docs.cofounder.co/cli/guide/communicate-and-sell",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -412,6 +391,27 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/reference.md",
       "sha256": "86ced99f094b931c6aa27c4817f9fff674c3f81f5d3849ebc785224658f6a89e"
+    },
+    {
+      "title": "Connect an Agent",
+      "source_url": "https://docs.cofounder.co/cli/get-started/connect-an-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/get-started/connect-an-agent.md",
+      "sha256": "977dadd5762ab1bd461294afbb273161bb2075a53e0d4cf01e26e51d5e8cc84a"
+    },
+    {
+      "title": "Install the CLI",
+      "source_url": "https://docs.cofounder.co/cli/get-started/install-the-cli",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/get-started/install-the-cli.md",
+      "sha256": "0369c0746809dea99ab88d4f9315d19f49a231d0de2e253a734ce07e62900713"
+    },
+    {
+      "title": "Quickstart",
+      "source_url": "https://docs.cofounder.co/cli/get-started/quickstart",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/get-started/quickstart.md",
+      "sha256": "871b7e0f13a786acc581aa92d87951c9450e7d16e84e177c4bc34c9f7725f279"
     },
     {
       "title": "How to start a company \u2014 Cofounder",
