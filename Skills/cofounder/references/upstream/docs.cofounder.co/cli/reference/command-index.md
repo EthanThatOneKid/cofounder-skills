@@ -7,4 +7,4 @@ Fetched from: https://docs.cofounder.co/llms-full.txt
 
 Operations group by the noun they act on. Each family below shows its CLI
 root and API path prefix; MCP tool names are the operation ids with dots as
-underscores — `company_email_draft_create`, for example.
+underscores — `company_billing_usage_get`, for example.

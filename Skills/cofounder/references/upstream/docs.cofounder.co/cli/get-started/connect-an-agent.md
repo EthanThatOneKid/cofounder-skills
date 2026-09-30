@@ -12,6 +12,6 @@ https://api.superoptimizers.cofounder.co/mcp
 ```
 
 Point a compatible client at that URL and it gets the full tool surface —
-roughly 280 tools covering companies, knowledge, providers, deploys,
+roughly 340 tools covering companies, knowledge, providers, deploys,
 communication, and operations. No CLI install, no local process to babysit.
 These are the same operations the CLI and API expose.

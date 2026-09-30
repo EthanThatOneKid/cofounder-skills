@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 68,
+  "count": 78,
   "failure_count": 1,
   "failures": [
     {
@@ -20,6 +20,13 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/index.md",
       "sha256": "3c52a736e81bbcab922515d48f1ef911a41701c29ce0d255641a133943fc3b73"
+    },
+    {
+      "title": "Ownership, Access, and Continuity",
+      "source_url": "https://docs.cofounder.co/ownership-access-continuity",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/ownership-access-continuity.md",
+      "sha256": "0273902493a359e48de7a50a94737c68b76b701ffb57bc9ef5c119a1c52a8770"
     },
     {
       "title": "Custom Agents",
@@ -281,6 +288,13 @@
       "sha256": "3a702567ea0fa3717db756fc9d8e3edfac1361abfe7097207991187f9ad7513d"
     },
     {
+      "title": "Agent Spend",
+      "source_url": "https://docs.cofounder.co/cli/advanced/agent-spend",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/advanced/agent-spend.md",
+      "sha256": "631327ba0e4553db48912d5517199c7864411a85fa9af5a70500038318a263ba"
+    },
+    {
       "title": "API Keys and Scripting",
       "source_url": "https://docs.cofounder.co/cli/advanced/api-keys-and-scripting",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -292,7 +306,7 @@
       "source_url": "https://docs.cofounder.co/cli/advanced/mcp-apps-prompts-resources",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/advanced/mcp-apps-prompts-resources.md",
-      "sha256": "ec9482a463cd7e1097d2e5d24156845a4ff13e949dfbe4349a94c3428772c1ba"
+      "sha256": "c8ba2e39f81528969a2f53a4e1d8cf66f0c3296bb791f3bdfe0d5c8b40971995"
     },
     {
       "title": "Multiple Companies",
@@ -327,63 +341,35 @@
       "source_url": "https://docs.cofounder.co/cli/cookbook/run-a-company-end-to-end",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/cookbook/run-a-company-end-to-end.md",
-      "sha256": "b37fe983eec0bbc1052c3620391ebb8503dc10f44003df550cd9c55bc3da903a"
+      "sha256": "dbe3f5040abe95932084aae680fba10839453c12b061bba3a72dd0c5db4d87e1"
     },
     {
-      "title": "Communicate and Sell",
-      "source_url": "https://docs.cofounder.co/cli/guide/communicate-and-sell",
+      "title": "Connect an Agent",
+      "source_url": "https://docs.cofounder.co/cli/get-started/connect-an-agent",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/communicate-and-sell.md",
-      "sha256": "4c4c3707d829ad84a8e2b2838ef83d4881baf7a03e2805b42bdcbe7b828b0025"
+      "path": "docs.cofounder.co/cli/get-started/connect-an-agent.md",
+      "sha256": "a0b16eb9e87e3f1c8227780d996acd6accde7fd8d9287816117415c44275df73"
     },
     {
-      "title": "Company Knowledge",
-      "source_url": "https://docs.cofounder.co/cli/guide/company-knowledge",
+      "title": "Install the CLI",
+      "source_url": "https://docs.cofounder.co/cli/get-started/install-the-cli",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/company-knowledge.md",
-      "sha256": "e42475de757ec6a2796ab9e7619ee94660810166ae9da199f93b5eba7a5381a9"
+      "path": "docs.cofounder.co/cli/get-started/install-the-cli.md",
+      "sha256": "ffbab705beb631b174b1c490b8896a4da5acf8fbe83636367b5d7e111ee92556"
     },
     {
-      "title": "Connect Providers",
-      "source_url": "https://docs.cofounder.co/cli/guide/connect-providers",
+      "title": "Quickstart",
+      "source_url": "https://docs.cofounder.co/cli/get-started/quickstart",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/connect-providers.md",
-      "sha256": "238ef870dd9e8a2da23718b87097278e0cacdaecc36e1daf069b174047764e8e"
-    },
-    {
-      "title": "Create a Company",
-      "source_url": "https://docs.cofounder.co/cli/guide/create-a-company",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/create-a-company.md",
-      "sha256": "d75e340713e19399a20b4b84b35590bafe6098ef90fe8509b186fc1432976220"
-    },
-    {
-      "title": "Deploy and Operate",
-      "source_url": "https://docs.cofounder.co/cli/guide/deploy-and-operate",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/deploy-and-operate.md",
-      "sha256": "6fbab3a7155eaf0639b297f181d3a55a01e6881c54fd209ed7efb21374eab7aa"
-    },
-    {
-      "title": "Managed Setup",
-      "source_url": "https://docs.cofounder.co/cli/guide/managed-setup",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/managed-setup.md",
-      "sha256": "5cc49587e9c32d1fca0462b7b5ce84ec6bfa887decf09575ac23f1d55c211874"
-    },
-    {
-      "title": "Watch It Run",
-      "source_url": "https://docs.cofounder.co/cli/guide/watch-it-run",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/guide/watch-it-run.md",
-      "sha256": "056251f5a9b4f099912216543e3fdbbc9b794a558d0bdf76b017355b31f33afd"
+      "path": "docs.cofounder.co/cli/get-started/quickstart.md",
+      "sha256": "e92e1045c80bd983464f2e39fc670806e19cfd5e0ae7b9e444d0a5947051f41c"
     },
     {
       "title": "Command Index",
       "source_url": "https://docs.cofounder.co/cli/reference/command-index",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/reference/command-index.md",
-      "sha256": "37e43ec0f69d96a98fb9cfc5471a72f1ff79ba5bff95ec18c81caea512e683a8"
+      "sha256": "c29d602d45256618247bf95f3328fb63777e9c3e81a8d09d355322bc574ec1be"
     },
     {
       "title": "Reference",
@@ -393,25 +379,102 @@
       "sha256": "86ced99f094b931c6aa27c4817f9fff674c3f81f5d3849ebc785224658f6a89e"
     },
     {
-      "title": "Connect an Agent",
-      "source_url": "https://docs.cofounder.co/cli/get-started/connect-an-agent",
+      "title": "Ads",
+      "source_url": "https://docs.cofounder.co/cli/guide/ads",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/connect-an-agent.md",
-      "sha256": "977dadd5762ab1bd461294afbb273161bb2075a53e0d4cf01e26e51d5e8cc84a"
+      "path": "docs.cofounder.co/cli/guide/ads.md",
+      "sha256": "999e505fe1f299f3d5f0005e2ee9f9ae8c6e44b470c9bae074fcaf86fddf692b"
     },
     {
-      "title": "Install the CLI",
-      "source_url": "https://docs.cofounder.co/cli/get-started/install-the-cli",
+      "title": "Communicate and Sell",
+      "source_url": "https://docs.cofounder.co/cli/guide/communicate-and-sell",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/install-the-cli.md",
-      "sha256": "0369c0746809dea99ab88d4f9315d19f49a231d0de2e253a734ce07e62900713"
+      "path": "docs.cofounder.co/cli/guide/communicate-and-sell.md",
+      "sha256": "db205647c3b99b48e146bf57a720b020f18e92f681792c43cfd7dd529264537b"
     },
     {
-      "title": "Quickstart",
-      "source_url": "https://docs.cofounder.co/cli/get-started/quickstart",
+      "title": "Company Knowledge",
+      "source_url": "https://docs.cofounder.co/cli/guide/company-knowledge",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/get-started/quickstart.md",
-      "sha256": "871b7e0f13a786acc581aa92d87951c9450e7d16e84e177c4bc34c9f7725f279"
+      "path": "docs.cofounder.co/cli/guide/company-knowledge.md",
+      "sha256": "e42475de757ec6a2796ab9e7619ee94660810166ae9da199f93b5eba7a5381a9"
+    },
+    {
+      "title": "Create a Company",
+      "source_url": "https://docs.cofounder.co/cli/guide/create-a-company",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/create-a-company.md",
+      "sha256": "d75e340713e19399a20b4b84b35590bafe6098ef90fe8509b186fc1432976220"
+    },
+    {
+      "title": "CRM",
+      "source_url": "https://docs.cofounder.co/cli/guide/crm",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/crm.md",
+      "sha256": "b504a82d333ed93d516aec255cd3ceef6e319a99f6e5f7a2da5686e82e0dd132"
+    },
+    {
+      "title": "Database",
+      "source_url": "https://docs.cofounder.co/cli/guide/database",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/database.md",
+      "sha256": "f182ba610e569618cd73795aefd6bcb24d49f993906bdd451451a856cc0a27d8"
+    },
+    {
+      "title": "Deploy and Operate",
+      "source_url": "https://docs.cofounder.co/cli/guide/deploy-and-operate",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/deploy-and-operate.md",
+      "sha256": "6fbab3a7155eaf0639b297f181d3a55a01e6881c54fd209ed7efb21374eab7aa"
+    },
+    {
+      "title": "Domains",
+      "source_url": "https://docs.cofounder.co/cli/guide/domains",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/domains.md",
+      "sha256": "e8f0c6cfd5d312b5e3467cc18808b524084400a62e54cdf027b7598030401c21"
+    },
+    {
+      "title": "Email",
+      "source_url": "https://docs.cofounder.co/cli/guide/email",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/email.md",
+      "sha256": "4673e607b59a59786b3a20b5bfd4b4f71a258f47684f3b137c7d53f59238877d"
+    },
+    {
+      "title": "Incorporate",
+      "source_url": "https://docs.cofounder.co/cli/guide/incorporate",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/incorporate.md",
+      "sha256": "b9f50772842aab2c37501e03317bbae3e74725f18673a4048c344c0c65cf9fd0"
+    },
+    {
+      "title": "Managed Setup",
+      "source_url": "https://docs.cofounder.co/cli/guide/managed-setup",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/managed-setup.md",
+      "sha256": "dc2b799139208039289aecb390a2c249afcc5620462908bb11bec58217df086f"
+    },
+    {
+      "title": "Payments",
+      "source_url": "https://docs.cofounder.co/cli/guide/payments",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/payments.md",
+      "sha256": "4c009760e666663766fd45ce4ef53399ec9a6719ef940b230f27022af5c77c5b"
+    },
+    {
+      "title": "Research",
+      "source_url": "https://docs.cofounder.co/cli/guide/research",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/research.md",
+      "sha256": "c32c98701c8f1cb020be7a44c7fca830ebfeb9c25d871179f6d0ef188586a7cd"
+    },
+    {
+      "title": "Watch It Run",
+      "source_url": "https://docs.cofounder.co/cli/guide/watch-it-run",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/watch-it-run.md",
+      "sha256": "056251f5a9b4f099912216543e3fdbbc9b794a558d0bdf76b017355b31f33afd"
     },
     {
       "title": "How to start a company \u2014 Cofounder",
@@ -489,6 +552,13 @@
       "fetched_from": "https://cofounder.co/resources/cofounder-1-5-seed-round.md",
       "path": "cofounder.co/resources/cofounder-1-5-seed-round.md",
       "sha256": "331d85e3dff57562fe3eef157608f99e80c7c01f67dd2e234b01d253700092d7"
+    },
+    {
+      "title": "Integration discovery manifest",
+      "source_url": "https://cofounder.co/.well-known/integrations.json",
+      "fetched_from": "https://cofounder.co/.well-known/integrations.json",
+      "path": "cofounder.co/.well-known/integrations.json.md",
+      "sha256": "9f23d8e56e0071b2e64b49d8fa07a90f67cee7b6dccb50a8ee7ef2128e95a90f"
     }
   ]
 }
