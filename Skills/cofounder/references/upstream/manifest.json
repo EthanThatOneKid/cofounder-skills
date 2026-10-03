@@ -288,6 +288,27 @@
       "sha256": "3a702567ea0fa3717db756fc9d8e3edfac1361abfe7097207991187f9ad7513d"
     },
     {
+      "title": "Import a Repo and Ship a Change",
+      "source_url": "https://docs.cofounder.co/cli/cookbook/import-a-repo-and-ship",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/cookbook/import-a-repo-and-ship.md",
+      "sha256": "5b5a7e2e7c0a0476944556e44394cda0a232df1e561fcb044902f1acc73832a9"
+    },
+    {
+      "title": "Cookbook",
+      "source_url": "https://docs.cofounder.co/cli/cookbook",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/cookbook.md",
+      "sha256": "9af3aecf3ac401b680080bf9e438e2f60262f0275aa472f98a0da68eb94bb1fb"
+    },
+    {
+      "title": "Run a Company End to End",
+      "source_url": "https://docs.cofounder.co/cli/cookbook/run-a-company-end-to-end",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/cookbook/run-a-company-end-to-end.md",
+      "sha256": "dbe3f5040abe95932084aae680fba10839453c12b061bba3a72dd0c5db4d87e1"
+    },
+    {
       "title": "Agent Spend",
       "source_url": "https://docs.cofounder.co/cli/advanced/agent-spend",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -321,27 +342,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/advanced/secrets-and-env-files.md",
       "sha256": "e2ea82c1599e3129eda5ac9e5e328aa8a91d40b38f453e26f549c9340cf2ee4b"
-    },
-    {
-      "title": "Import a Repo and Ship a Change",
-      "source_url": "https://docs.cofounder.co/cli/cookbook/import-a-repo-and-ship",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/cookbook/import-a-repo-and-ship.md",
-      "sha256": "5b5a7e2e7c0a0476944556e44394cda0a232df1e561fcb044902f1acc73832a9"
-    },
-    {
-      "title": "Cookbook",
-      "source_url": "https://docs.cofounder.co/cli/cookbook",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/cookbook.md",
-      "sha256": "9af3aecf3ac401b680080bf9e438e2f60262f0275aa472f98a0da68eb94bb1fb"
-    },
-    {
-      "title": "Run a Company End to End",
-      "source_url": "https://docs.cofounder.co/cli/cookbook/run-a-company-end-to-end",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/cookbook/run-a-company-end-to-end.md",
-      "sha256": "dbe3f5040abe95932084aae680fba10839453c12b061bba3a72dd0c5db4d87e1"
     },
     {
       "title": "Connect an Agent",
@@ -453,14 +453,14 @@
       "source_url": "https://docs.cofounder.co/cli/guide/playbooks",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/playbooks.md",
-      "sha256": "8ec048e84370b3b178149734d06002b8706ab9201249639dc36294ff94078113"
+      "sha256": "4412053c58aa4c63978a458f8c3dcd610266727666b46c04d2c120a322cf2761"
     },
     {
       "title": "Research",
       "source_url": "https://docs.cofounder.co/cli/guide/research",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/research.md",
-      "sha256": "c32c98701c8f1cb020be7a44c7fca830ebfeb9c25d871179f6d0ef188586a7cd"
+      "sha256": "bf4c1024b4bc5a3023b46139847058245276c3db82441d67b5980148d7fa505c"
     },
     {
       "title": "Watch It Run",

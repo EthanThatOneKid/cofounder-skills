@@ -16,6 +16,7 @@ run. The agent works in **routine runs**: each one is a turn of that same
 agent, so it keeps its context and sandbox from one routine run to the next.
 Routine runs happen on the run's schedule, or right away when you continue the
 run. The agent keeps its progress in two places: Library files people read,
-and the run's **state**, structured data that `playbooks runs get` returns.
-When the goal is met, the agent marks the run complete and its routine runs
-stop. A company can have several playbook runs, of the same playbook too.
+and progress notes it posts to the company's event log, tagged with the run's
+id, which `cofounder events list --attribute run_id=<id>` returns. When the
+goal is met, the agent marks the run complete and its routine runs stop. A
+company can have several playbook runs, of the same playbook too.
