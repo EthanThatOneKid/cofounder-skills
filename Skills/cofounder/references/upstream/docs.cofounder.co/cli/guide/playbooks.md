@@ -5,8 +5,8 @@ Fetched from: https://docs.cofounder.co/llms-full.txt
 
 **Description:** Cofounder-defined goals an agent pursues for your company, one routine run at a time, using the cofounder CLI on the company's behalf.
 
-A playbook is a goal Cofounder defines, such as keeping the company's state
-current or finding a starting price. Cofounder writes and maintains each
+A playbook is a goal Cofounder defines, such as creating a brand identity
+or generating a video. Cofounder writes and maintains each
 playbook's instructions, so improvements reach every company on its next
 routine run.
 
@@ -18,5 +18,5 @@ Routine runs happen on the run's schedule, or right away when you continue the
 run. The agent keeps its progress in two places: Library files people read,
 and progress notes it posts to the company's event log, tagged with the run's
 id, which `cofounder events list --attribute run_id=<id>` returns. When the
-goal is met, the agent marks the run complete and its routine runs stop. A
+goal is met, the backend completes goal-driven runs automatically and future routine runs stop. A
 company can have several playbook runs, of the same playbook too.

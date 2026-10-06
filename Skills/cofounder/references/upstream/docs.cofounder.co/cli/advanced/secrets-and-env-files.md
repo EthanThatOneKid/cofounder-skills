@@ -7,5 +7,5 @@ Fetched from: https://docs.cofounder.co/llms-full.txt
 
 There are two kinds of secrets in play, and they live in different places.
 App secrets are values your deployed app reads at runtime. Local secrets are
-what your environment needs to talk to Cofounder — `COFOUNDER_API_TOKEN`
+what your environment needs to talk to Cofounder, such as `COFOUNDER_API_TOKEN`
 and friends.
