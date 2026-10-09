@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 79,
+  "count": 80,
   "failure_count": 1,
   "failures": [
     {
@@ -440,6 +440,13 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/managed-setup.md",
       "sha256": "4a0ebf21c7cbccd8a3017637b4014380e5608a57d4060ced96a54931bd15d306"
+    },
+    {
+      "title": "Mobile Apps",
+      "source_url": "https://docs.cofounder.co/cli/guide/mobile",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/mobile.md",
+      "sha256": "6c625fa3cd5dc1f1b9d6712f074b45730eafad8c90cc6cbe4c5b95322bb289f1"
     },
     {
       "title": "Payments",
