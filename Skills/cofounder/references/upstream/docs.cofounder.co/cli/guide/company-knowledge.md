@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli/guide/company-knowledge
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Teach the company what it needs to know: import founder knowledge, manage Library files, and search everything through context search.
+**Description:** Teach the company what it needs to know: import founder knowledge, and manage Library files.
 
 A company knows things two ways, and they serve different jobs:
 
