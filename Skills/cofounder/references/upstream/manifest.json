@@ -78,6 +78,20 @@
       "sha256": "a5446d00bff5319102cdd04e566b8d01b3fb162671c69d5cdc5638bdcfa8a127"
     },
     {
+      "title": "Introduction",
+      "source_url": "https://docs.cofounder.co/cli",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli.md",
+      "sha256": "dcfd301327138cb7f31eda637f6ec8ecce5afd051834102a18f4c7b24c5d6334"
+    },
+    {
+      "title": "Migrating from the Web App",
+      "source_url": "https://docs.cofounder.co/cli/migrating-from-web-app",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/migrating-from-web-app.md",
+      "sha256": "74bc6ee052e60d20337f97afb64411e71d250c059f8295a754136e6b2100279d"
+    },
+    {
       "title": "What Happens After Onboarding",
       "source_url": "https://docs.cofounder.co/get-started/after-onboarding",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -97,20 +111,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/get-started/what-cofounder-does.md",
       "sha256": "fd915a118bbeca446800cc3444d4adbebd4168f74e1f70073e8a8cc4b6677cca"
-    },
-    {
-      "title": "Introduction",
-      "source_url": "https://docs.cofounder.co/cli",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli.md",
-      "sha256": "dcfd301327138cb7f31eda637f6ec8ecce5afd051834102a18f4c7b24c5d6334"
-    },
-    {
-      "title": "Migrating from the Web App",
-      "source_url": "https://docs.cofounder.co/cli/migrating-from-web-app",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/migrating-from-web-app.md",
-      "sha256": "74bc6ee052e60d20337f97afb64411e71d250c059f8295a754136e6b2100279d"
     },
     {
       "title": "Linear",
@@ -344,20 +344,6 @@
       "sha256": "490cbc88dae122d6e67329f9f94d23e0965727f32107629603fbd05c008cfe64"
     },
     {
-      "title": "Command Index",
-      "source_url": "https://docs.cofounder.co/cli/reference/command-index",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/reference/command-index.md",
-      "sha256": "8e0aa2ec5e22caaa0c60e2fcc13b2e5f80fbdc8f22655dd21bf4c1b00fc5ae34"
-    },
-    {
-      "title": "Reference",
-      "source_url": "https://docs.cofounder.co/cli/reference",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cli/reference.md",
-      "sha256": "86ced99f094b931c6aa27c4817f9fff674c3f81f5d3849ebc785224658f6a89e"
-    },
-    {
       "title": "Connect an Agent",
       "source_url": "https://docs.cofounder.co/cli/get-started/connect-an-agent",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -489,6 +475,20 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/watch-it-run.md",
       "sha256": "16432cbb77a01c8a83661e56c8d5ae5e31bde1433c403fe95c802b4c6172bcec"
+    },
+    {
+      "title": "Command Index",
+      "source_url": "https://docs.cofounder.co/cli/reference/command-index",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/reference/command-index.md",
+      "sha256": "8e0aa2ec5e22caaa0c60e2fcc13b2e5f80fbdc8f22655dd21bf4c1b00fc5ae34"
+    },
+    {
+      "title": "Reference",
+      "source_url": "https://docs.cofounder.co/cli/reference",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/reference.md",
+      "sha256": "86ced99f094b931c6aa27c4817f9fff674c3f81f5d3849ebc785224658f6a89e"
     },
     {
       "title": "How to start a company \u2014 Cofounder",
