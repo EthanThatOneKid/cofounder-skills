@@ -28,6 +28,8 @@ operations, and design stay on `/mcp` and `/mcp/claude`; media generation is
 text writes, uploads, and URL ingestion stay in `/mcp/openai` because the
 text operations' guidance and the brand kit's recovery steps call them;
 file publishing and deletion are `/mcp` and `/mcp/claude` only.
+Prospect import and its status read are available on all three endpoints;
+the other CRM tools keep their existing catalog membership.
 All three endpoints use the same Cofounder account, with their own OAuth resource
 identities. Plugin eligibility is explicit per tool; future tools on general MCP
 are not automatically included in plugin catalogs. When the OAuth proxy is enabled,
