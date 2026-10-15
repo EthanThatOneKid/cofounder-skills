@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 79,
+  "count": 82,
   "failure_count": 1,
   "failures": [
     {
@@ -407,6 +407,13 @@
       "sha256": "f182ba610e569618cd73795aefd6bcb24d49f993906bdd451451a856cc0a27d8"
     },
     {
+      "title": "Decisions",
+      "source_url": "https://docs.cofounder.co/cli/guide/decisions",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/decisions.md",
+      "sha256": "c20f2b8ce842a94ab84591612b64bd2bd40f171f7ad2bac72af9b1e60f042165"
+    },
+    {
       "title": "Deploy and Operate",
       "source_url": "https://docs.cofounder.co/cli/guide/deploy-and-operate",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -461,6 +468,13 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/research.md",
       "sha256": "bf4c1024b4bc5a3023b46139847058245276c3db82441d67b5980148d7fa505c"
+    },
+    {
+      "title": "SEO",
+      "source_url": "https://docs.cofounder.co/cli/guide/seo",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/seo.md",
+      "sha256": "856f9e079bd877b07c390b8727fc9b1f992d1dbc09a0a2e054877b082282a177"
     },
     {
       "title": "Watch It Run",
@@ -559,6 +573,13 @@
       "fetched_from": "https://cofounder.co/resources/cofounder-1-5-seed-round.md",
       "path": "cofounder.co/resources/cofounder-1-5-seed-round.md",
       "sha256": "331d85e3dff57562fe3eef157608f99e80c7c01f67dd2e234b01d253700092d7"
+    },
+    {
+      "title": "Install Cofounder for your agent",
+      "source_url": "https://cofounder.co/install.md",
+      "fetched_from": "https://cofounder.co/install.md",
+      "path": "cofounder.co/install.md",
+      "sha256": "be8fd163d608187cf84532a6aab3ca3d1a4d9aebbe44a5fcd2ed1670e6bb4578"
     },
     {
       "title": "Integration discovery manifest",
