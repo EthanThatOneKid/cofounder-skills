@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 82,
+  "count": 88,
   "failure_count": 1,
   "failures": [
     {
@@ -197,48 +197,6 @@
       "sha256": "634eb16c07cba0ace2d744459266ff293b097815db072330cf3a81fe81380d31"
     },
     {
-      "title": "AI Settings",
-      "source_url": "https://docs.cofounder.co/settings/ai-settings",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/ai-settings.md",
-      "sha256": "b629ba369d2f5637045c6dd8fcc2805a53d06c68ff27491133dd11042536b862"
-    },
-    {
-      "title": "Company Context",
-      "source_url": "https://docs.cofounder.co/settings/company-context",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/company-context.md",
-      "sha256": "3f1292f466201f9bee2fcd8fd07950ae962cd7764733a30a5cecdf5656d4a881"
-    },
-    {
-      "title": "Domains",
-      "source_url": "https://docs.cofounder.co/settings/domains",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/domains.md",
-      "sha256": "945bec82943c3133db8890323a9597b9c9fb8069c27cd12f0fecfed7ab7241a2"
-    },
-    {
-      "title": "Environment Files & Secrets",
-      "source_url": "https://docs.cofounder.co/settings/env-files-and-secrets",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/env-files-and-secrets.md",
-      "sha256": "1e5bf87e69f641bfb5b333752ee89ee36f72c3bcaa90ad99186e66e42f08a6a1"
-    },
-    {
-      "title": "Inbox",
-      "source_url": "https://docs.cofounder.co/settings/inbox",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/inbox.md",
-      "sha256": "796250611f5593b1da3686223e5d33b4b04ddd16c8f1dd61db65ef008b166f58"
-    },
-    {
-      "title": "Notifications",
-      "source_url": "https://docs.cofounder.co/settings/notifications",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/settings/notifications.md",
-      "sha256": "811f535663e3c6db895328647c0f9708d4fc03b6ced5ff29496bbbf074e5b726"
-    },
-    {
       "title": "Canvas",
       "source_url": "https://docs.cofounder.co/workspace/canvas",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -288,11 +246,53 @@
       "sha256": "3a702567ea0fa3717db756fc9d8e3edfac1361abfe7097207991187f9ad7513d"
     },
     {
+      "title": "AI Settings",
+      "source_url": "https://docs.cofounder.co/settings/ai-settings",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/ai-settings.md",
+      "sha256": "b629ba369d2f5637045c6dd8fcc2805a53d06c68ff27491133dd11042536b862"
+    },
+    {
+      "title": "Company Context",
+      "source_url": "https://docs.cofounder.co/settings/company-context",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/company-context.md",
+      "sha256": "3f1292f466201f9bee2fcd8fd07950ae962cd7764733a30a5cecdf5656d4a881"
+    },
+    {
+      "title": "Domains",
+      "source_url": "https://docs.cofounder.co/settings/domains",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/domains.md",
+      "sha256": "945bec82943c3133db8890323a9597b9c9fb8069c27cd12f0fecfed7ab7241a2"
+    },
+    {
+      "title": "Environment Files & Secrets",
+      "source_url": "https://docs.cofounder.co/settings/env-files-and-secrets",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/env-files-and-secrets.md",
+      "sha256": "1e5bf87e69f641bfb5b333752ee89ee36f72c3bcaa90ad99186e66e42f08a6a1"
+    },
+    {
+      "title": "Inbox",
+      "source_url": "https://docs.cofounder.co/settings/inbox",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/inbox.md",
+      "sha256": "796250611f5593b1da3686223e5d33b4b04ddd16c8f1dd61db65ef008b166f58"
+    },
+    {
+      "title": "Notifications",
+      "source_url": "https://docs.cofounder.co/settings/notifications",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/settings/notifications.md",
+      "sha256": "811f535663e3c6db895328647c0f9708d4fc03b6ced5ff29496bbbf074e5b726"
+    },
+    {
       "title": "Agent Spend",
       "source_url": "https://docs.cofounder.co/cli/advanced/agent-spend",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/advanced/agent-spend.md",
-      "sha256": "5b104fedb20b0a13f6fab20786b25d6376d6465817de54b55b3983335e4e57ef"
+      "sha256": "6073dc7521221988a725eb7a117611690e2bc1ed8bb842723d380ebd0a502c1a"
     },
     {
       "title": "API Keys and Scripting",
@@ -306,7 +306,14 @@
       "source_url": "https://docs.cofounder.co/cli/advanced/mcp-apps-prompts-resources",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/advanced/mcp-apps-prompts-resources.md",
-      "sha256": "3646008c9c36c5cae0d1f0d62b0196f9bdaa694b6588bfeca13b1f37ae36c550"
+      "sha256": "f7cd836f4950a2a042e4c165f16bb1bb050962472586df5b6a5a43a870424fa4"
+    },
+    {
+      "title": "Pay Cofounder with MPP",
+      "source_url": "https://docs.cofounder.co/cli/advanced/mpp-payments",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/advanced/mpp-payments.md",
+      "sha256": "9750e805dbd8ac553778018e8207c79a24874d0f8f99bf42904ee2bdde5612eb"
     },
     {
       "title": "Multiple Companies",
@@ -421,6 +428,13 @@
       "sha256": "38b413d0115f88b75a13e225a2704e24604f560999e0972a5b494487cafcfc27"
     },
     {
+      "title": "Design",
+      "source_url": "https://docs.cofounder.co/cli/guide/design",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/design.md",
+      "sha256": "63e8a20575be95a2279d2907da0d0529ba61fa4f13177f02bb52f719c2bac5b2"
+    },
+    {
       "title": "Domains",
       "source_url": "https://docs.cofounder.co/cli/guide/domains",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -449,11 +463,32 @@
       "sha256": "4a0ebf21c7cbccd8a3017637b4014380e5608a57d4060ced96a54931bd15d306"
     },
     {
+      "title": "Media",
+      "source_url": "https://docs.cofounder.co/cli/guide/media",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/media.md",
+      "sha256": "30a8c658e2210fa025a1c251a1ce5aa4498b70b5d18be28480565047b9ceca3c"
+    },
+    {
+      "title": "Meetings",
+      "source_url": "https://docs.cofounder.co/cli/guide/meetings",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/meetings.md",
+      "sha256": "354a5d84256e247c46fe497d89dbf46f337d5277cc73540e0166b8e87af99305"
+    },
+    {
       "title": "Payments",
       "source_url": "https://docs.cofounder.co/cli/guide/payments",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/payments.md",
       "sha256": "903c21cac0ab402e6e9079c353755e05398b19f9793aa3d0e40687482dd08f38"
+    },
+    {
+      "title": "People",
+      "source_url": "https://docs.cofounder.co/cli/guide/people",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/people.md",
+      "sha256": "7875823fede0aa8b2871d9e8bd3f2eb2058fe33f46344c46a8bf76f61e38338e"
     },
     {
       "title": "Playbooks",
@@ -482,6 +517,13 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/cli/guide/watch-it-run.md",
       "sha256": "16432cbb77a01c8a83661e56c8d5ae5e31bde1433c403fe95c802b4c6172bcec"
+    },
+    {
+      "title": "Writing",
+      "source_url": "https://docs.cofounder.co/cli/guide/writing",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cli/guide/writing.md",
+      "sha256": "100b52e297f4e3f399f0931f461587c79d2be6e848335c03e3c8d88838e08a8c"
     },
     {
       "title": "Command Index",
