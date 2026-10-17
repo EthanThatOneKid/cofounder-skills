@@ -51,7 +51,7 @@ Sign in with `/mcp`, cofounder, authenticate, or run `claude mcp login cofounder
 
 **ChatGPT (web, developer mode).** Settings, Apps, Advanced settings, Developer mode, Create app. URL `https://api.superoptimizers.cofounder.co/mcp/openai`, authentication OAuth. Complete sign-in. Availability depends on plan and workspace policy. If these menu names differ, look for Developer mode under Apps.
 
-**Cursor.** Open `cursor://anysphere.cursor-deeplink/mcp/install?name=cofounder&config=eyJ1cmwiOiJodHRwczovL2FwaS5zdXBlcm9wdGltaXplcnMuY29mb3VuZGVyLmNvL21jcCJ9`, or put `{"mcpServers":{"cofounder":{"url":"https://api.superoptimizers.cofounder.co/mcp"}}}` in `~/.cursor/mcp.json`.
+**Cursor.** Open `cursor://anysphere.cursor-deeplink/mcp/install?name=cofounder&config=eyJ1cmwiOiJodHRwczovL2FwaS5zdXBlcm9wdGltaXplcnMuY29mb3VuZGVyLmNvL21jcC9jbGF1ZGUifQ==`, or put `{"mcpServers":{"cofounder":{"url":"https://api.superoptimizers.cofounder.co/mcp/claude"}}}` in `~/.cursor/mcp.json`.
 
 **VS Code.** Open `vscode:mcp/install?%7B%22name%22%3A%22cofounder%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.superoptimizers.cofounder.co%2Fmcp%22%7D`, or add the server to `.vscode/mcp.json` under the top-level `servers` key as `{"type":"http","url":"https://api.superoptimizers.cofounder.co/mcp"}`.
 
