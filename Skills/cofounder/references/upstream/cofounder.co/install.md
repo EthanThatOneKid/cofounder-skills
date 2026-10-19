@@ -55,6 +55,8 @@ Sign in with `/mcp`, cofounder, authenticate, or run `claude mcp login cofounder
 
 **VS Code.** Open `vscode:mcp/install?%7B%22name%22%3A%22cofounder%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.superoptimizers.cofounder.co%2Fmcp%22%7D`, or add the server to `.vscode/mcp.json` under the top-level `servers` key as `{"type":"http","url":"https://api.superoptimizers.cofounder.co/mcp"}`.
 
+**Goose.** Open `goose://extension?url=https%3A%2F%2Fapi.superoptimizers.cofounder.co%2Fmcp%2Fclaude&type=streamable_http&id=cofounder&name=Cofounder`.
+
 **Other clients.** Add a remote Streamable HTTP server with OAuth at https://api.superoptimizers.cofounder.co/mcp. Protected-resource metadata is at https://api.superoptimizers.cofounder.co/.well-known/oauth-protected-resource/mcp.
 
 **Config writes.** If you must write config, merge into the existing file (keep other servers) and read it back.
