@@ -11,6 +11,14 @@ account that company setup creates, which you fund from the company balance.
 Setup, drafting, and anything that spends money need a company admin; any
 member can read accounts, campaigns, and results.
 
+The managed Meta path runs only where managed ads are enabled for the
+company: `accounts provision`, `agreement sign`, `verifications`,
+`assets`, `page`, `pixel check`, `drafts`, `campaigns launch`,
+`billing fund`, and `billing get` refuse with a permission error
+otherwise. Connected accounts work everywhere, and
+`billing allowance get` still reads any funded balance the managed account
+already holds.
+
 **What spends money or needs the founder:**
 
 - Spends money: `ads billing fund`, `ads campaigns launch`,
