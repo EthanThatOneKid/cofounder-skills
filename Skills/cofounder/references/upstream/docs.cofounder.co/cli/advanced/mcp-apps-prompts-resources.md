@@ -3,15 +3,23 @@
 Source: https://docs.cofounder.co/cli/advanced/mcp-apps-prompts-resources
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** What the hosted MCP server serves besides tools: resources for billing, the Library, outputs, and skills; prompts as slash commands; and the company app's CRM, roadmap, and domains views.
+**Description:** Company app views, readable guides and company data, slash-command prompts, event notifications, and richer results from the Cofounder MCP, alongside its tools.
 
-The hosted MCP server at `/mcp` serves the same full catalog to every host,
-including Codex, Claude, ChatGPT, and Cursor. Your agent can call tools, read
-resources on demand, pick up prompts as slash commands, and open the company
-app's CRM, roadmap, and domains views.
+Over MCP, your agent gets more than tools. Every host (Codex, Claude,
+ChatGPT, Cursor) gets all of the following from the hosted server at `/mcp`:
 
-Media generation and the `generate-image`/`generate-video` prompts are available
-through `/mcp`. All hosts use the same Cofounder account and OAuth resource
-identity. When the OAuth proxy is enabled, the upstream Supabase client must
-allow `<backend-url>/mcp/oauth/callback`. Connection listing and revocation
-cover all account connections.
+- Company app views: the company's Home, Inbox, CRM, roadmap, and domains as
+  screens inside the chat.
+- Guides and company data to read: Cofounder's operating guides, plus the
+  company's billing, Library, outputs, and readiness.
+- Prompts: ready-made slash commands for common jobs, like onboarding a
+  company or generating an image.
+- Events: notifications when a prospect import finishes, a watch finds
+  something, or a CRM reply arrives.
+- Richer results: file links you can open, structured error details, and
+  suggested next steps.
+- Long-running imports: a prospect import your agent can check on even after
+  reconnecting.
+
+Hosts that don't support one of these still get the same data through plain
+tools.

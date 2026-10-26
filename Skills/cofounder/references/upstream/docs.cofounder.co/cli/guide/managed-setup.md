@@ -3,10 +3,8 @@
 Source: https://docs.cofounder.co/cli/guide/managed-setup
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** One managed run provisions the company's baseline resources; then inspect what it created and what's still missing.
+**Description:** One setup run gives your company a code repository, a hosted app, a database with sign-in, analytics, a company inbox, a Stripe test sandbox, and a roadmap.
 
-Managed setup is the fast path to a working company: one run provisions the
-baseline — repository, deploy target, database, email, billing, and, where
-managed ads are enabled for the company, a managed Meta ads account (see
-[Ads](/cli/guide/ads)) — then reports what succeeded and what's still
-waiting on you.
+Setup gives your company the accounts and projects a working app needs, in
+one run. It creates real accounts and projects (GitHub, Vercel, and the
+rest), so your agent starts it only when you ask.

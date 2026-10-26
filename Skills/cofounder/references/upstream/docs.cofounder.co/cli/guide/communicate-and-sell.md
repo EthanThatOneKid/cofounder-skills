@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli/guide/communicate-and-sell
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Reach customers: company email and phone, CRM, ads, social, research, and managed Stripe objects.
+**Description:** Reach customers. Give the company an inbox and phone number, post to social, keep the CRM current, and check your brand.
 
-Running a company means reaching people. This page covers the outbound
-and inbound channels plus the growth machinery around them.
+Reach customers from the company's own accounts. Your agent sends email,
+receives texts on a company phone number, posts and replies on social, and keeps the CRM up to date. Each section links to the full guide.

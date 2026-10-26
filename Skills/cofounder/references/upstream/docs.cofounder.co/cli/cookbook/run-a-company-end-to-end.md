@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli/cookbook/run-a-company-end-to-end
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Recipe: from a fresh Cofounder account to a provisioned company with an agent actively working it.
+**Description:** Start with a new Cofounder account and end with a set-up company and your agent working through its roadmap.
 
-The goal here: a company with knowledge, provisioned resources, and an agent
-working its roadmap, starting from nothing.
+Start with only an account. End with a company that knows your business,
+has its tools set up, and has your agent working through its roadmap.

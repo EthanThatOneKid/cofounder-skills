@@ -3,9 +3,8 @@
 Source: https://docs.cofounder.co/cli/guide/payments
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Take payments with Stripe: test in a sandbox, connect your live account, and manage pricing plans, revenue, and customer support.
+**Description:** Take payments with Stripe. Test your checkout in a sandbox, connect your live account, sell pricing plans, and handle refunds and cancellations.
 
-Cofounder connects your company to Stripe. Agents start in a Stripe test
-sandbox, where they can build and try your checkout without touching your
-real account or charging anyone. When you're ready to take real money,
-connect your live Stripe account.
+Take payments with Stripe. Your agent sets up Stripe for your company, builds
+and tests your checkout in a sandbox that charges no one, and takes real
+payments once you connect your live Stripe account.

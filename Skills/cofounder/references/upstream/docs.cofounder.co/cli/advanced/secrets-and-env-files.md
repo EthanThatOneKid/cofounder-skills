@@ -3,9 +3,9 @@
 Source: https://docs.cofounder.co/cli/advanced/secrets-and-env-files
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Where secrets live: managed app secrets that ship to deploy targets, database secrets, and local environment files.
+**Description:** Store the secrets your deployed app and database functions read, keep local secrets in env files, and set the variables the CLI reads.
 
-There are two kinds of secrets in play, and they live in different places.
-App secrets are values your deployed app reads at runtime. Local secrets are
-what your environment needs to talk to Cofounder, such as `COFOUNDER_API_TOKEN`
-and friends.
+Your deployed app needs API keys and other secret values. Cofounder stores
+them and delivers them to your app. Secrets your own machine needs (to run
+the app locally, or to reach Cofounder) stay in local env files and
+environment variables.

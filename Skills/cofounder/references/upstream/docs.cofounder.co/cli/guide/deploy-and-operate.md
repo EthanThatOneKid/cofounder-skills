@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli/guide/deploy-and-operate
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Work on the company's product: import and clone the repo, deploy, and operate its Supabase and Vercel infrastructure.
+**Description:** Change your product's code, bring your own repository, deploy, and run its database and secrets.
 
-Once your company has a repository and a deploy target, this is the surface
-your agent builds on: branches, deploys, migrations, secrets, functions.
+Once your company has a repository and hosting, your agent changes your
+product's code, ships it live, and runs its database, functions, and secrets.

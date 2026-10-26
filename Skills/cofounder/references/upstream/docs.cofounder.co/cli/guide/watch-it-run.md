@@ -3,7 +3,8 @@
 Source: https://docs.cofounder.co/cli/guide/watch-it-run
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Follow what the company's agents are doing: the event stream, the roadmap, billing state, and local environment checks.
+**Description:** Check what your agent did, what's next on the roadmap, and what it costs, and get help when something breaks.
 
-Your agent does the work; your job is to watch it. Three questions matter:
-what happened, what's next, and what it's costing.
+Your agent does the work. You check what happened, what's next, and what it
+costs. When something breaks, check your own machine or get help from the
+Cofounder team.

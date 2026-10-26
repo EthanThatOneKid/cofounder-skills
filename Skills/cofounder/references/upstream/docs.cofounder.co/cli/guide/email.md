@@ -3,8 +3,12 @@
 Source: https://docs.cofounder.co/cli/guide/email
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Company inboxes, reading and sending mail, drafts, email campaigns to CRM contacts, your own mail domain, and email from your app.
+**Description:** Give the company inboxes, read and send mail, save drafts, email your CRM contacts, use your own mail domain, and send email from your app.
 
-The company gets its own inboxes. Agents read threads, reply, and send from
-them, and once the company has its own domain they can email CRM contacts in
-bulk.
+The company gets its own inboxes, and your agent reads threads, replies, and
+sends from them. Once the company has its own domain, your agent can also
+email your CRM contacts in bulk and send email from your app. The first
+inbox on your own domain is free, and each one after it is $2 a month.
+
+Any company member can read mail and drafts. Sending, replying, drafting,
+labeling, and attaching files need an admin.

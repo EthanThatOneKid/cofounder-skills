@@ -3,29 +3,12 @@
 Source: https://docs.cofounder.co/cli/guide/ads
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Run paid ads: connect or set up an ad account, research keywords, draft and fund campaigns, launch them, and track spend and results.
+**Description:** Run paid ads on the ad accounts your company already has. Connect them, research what works, create campaigns, cap spending, and track results.
 
-There are two ways to advertise. Connect an ad account the company already
-has (Google, Meta, LinkedIn, TikTok, and others), or use the managed Meta ad
-account that company setup creates, which you fund from the company balance.
-Setup, drafting, and anything that spends money need a company admin; any
-member can read accounts, campaigns, and results.
+Run paid ads on the ad accounts your company already has, on Google, Meta,
+LinkedIn, TikTok, and other platforms. Your agent researches what works,
+sets up campaigns, keeps spending under a daily limit you control, and
+reports how they perform.
 
-The managed Meta path runs only where managed ads are enabled for the
-company: `accounts provision`, `agreement sign`, `verifications`,
-`assets`, `page`, `pixel check`, `drafts`, `campaigns launch`,
-`billing fund`, and `billing get` refuse with a permission error
-otherwise. Connected accounts work everywhere, and
-`billing allowance get` still reads any funded balance the managed account
-already holds.
-
-**What spends money or needs the founder:**
-
-- Spends money: `ads billing fund`, `ads campaigns launch`,
-  `ads campaigns resume`, and `ads billing payment retry`.
-- Needs the founder: signing in to connect an account, and answering
-  business verification requests.
-
-When the company has more than one ad account, choose one with `--resource`
-(its name or id), or with `--key` or `--resource-id` on commands that take
-those. `cofounder ads accounts list` shows each account's key and id.
+Connecting accounts and anything that spends money require a company admin.
+Any member can see accounts, campaigns, and results.

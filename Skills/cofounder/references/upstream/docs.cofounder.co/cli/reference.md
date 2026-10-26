@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli/reference
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** How the three surfaces name the same operation, how authentication works everywhere, and where the generated index lives.
+**Description:** How one operation is named in MCP, the CLI, and the API, how to sign in on each, and where to find every command.
 
 
 

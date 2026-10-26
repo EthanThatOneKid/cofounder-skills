@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/cli
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Cofounder is an agent-first platform for running a company. You bring the company; your agent runs it through the hosted MCP server, the cofounder CLI, or the REST API.
+**Description:** Give your AI agent the tools to run a company. Connect Claude, ChatGPT, Codex, Cursor, or any coding agent to CofounderOS through MCP or the cofounder CLI.
 
 
 
