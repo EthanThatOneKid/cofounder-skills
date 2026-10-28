@@ -4,79 +4,9 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 59,
-  "failure_count": 15,
+  "count": 82,
+  "failure_count": 1,
   "failures": [
-    {
-      "title": "Cofounder OS vs Polsia: Your Agent or an Autonomous Operator",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-polsia.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-polsia.html.md: https://cofounder.co/alternatives/cofounder-vs-polsia.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Lovable + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-lovable.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-lovable.html.md: https://cofounder.co/alternatives/cofounder-vs-lovable.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Replit + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-replit.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-replit.html.md: https://cofounder.co/alternatives/cofounder-vs-replit.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "FlutterFlow + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Bolt + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-bolt.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-bolt.html.md: https://cofounder.co/alternatives/cofounder-vs-bolt.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "v0 + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-v0.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-v0.html.md: https://cofounder.co/alternatives/cofounder-vs-v0.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Give Claude Code superpowers with Cofounder OS",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md: https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Give Cursor superpowers with Cofounder OS",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-cursor.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-cursor.html.md: https://cofounder.co/alternatives/cofounder-vs-cursor.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Give Codex superpowers with Cofounder OS",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-codex.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-codex.html.md: https://cofounder.co/alternatives/cofounder-vs-codex.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Cofounder OS and AI SDR Tools: Prospecting and Your Business Stack",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-ai-sdr.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-ai-sdr.html.md: https://cofounder.co/alternatives/cofounder-vs-ai-sdr.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Cofounder OS vs AI CMO Tools: Marketing Through One MCP",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-ai-cmo.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-ai-cmo.html.md: https://cofounder.co/alternatives/cofounder-vs-ai-cmo.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Base44 + Cofounder: Build your app. Run your business.",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-base44.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-base44.html.md: https://cofounder.co/alternatives/cofounder-vs-base44.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Cofounder OS vs Locus: Your Agent or an AI Business Builder",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-locus.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-locus.html.md: https://cofounder.co/alternatives/cofounder-vs-locus.html.md: HTTP Error 404: Not Found"
-    },
-    {
-      "title": "Cofounder OS vs Na\u00efve: Business Stack and Agent Infrastructure",
-      "source_url": "https://cofounder.co/alternatives/cofounder-vs-naive.html.md",
-      "error": "No markdown source found for https://cofounder.co/alternatives/cofounder-vs-naive.html.md: https://cofounder.co/alternatives/cofounder-vs-naive.html.md: HTTP Error 404: Not Found"
-    },
     {
       "title": "A Day in the Life of the World\u2019s Most AI Forward Company",
       "source_url": "https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company",
@@ -292,7 +222,7 @@
       "source_url": "https://docs.cofounder.co/guide/database",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/database.md",
-      "sha256": "cb18395e51fc6105d5ec38814f8d37826c892b6e39d418c640b415e4494f01f2"
+      "sha256": "6aef406b8ee72e03580cf3c4f93c2bf36b5fb7fa0864871c0314253c753196f2"
     },
     {
       "title": "Deploy and Operate",
@@ -383,7 +313,7 @@
       "source_url": "https://docs.cofounder.co/guide/wallet",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/wallet.md",
-      "sha256": "6873f712a62567373957ac89d8fd5cbde8da8518296085de0a6347633e965139"
+      "sha256": "b2add99663f5aec5a53a81522382c669beb470a43c951802e3f5f143fb364000"
     },
     {
       "title": "Watch It Run",
@@ -405,6 +335,167 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/reference.md",
       "sha256": "573cdf46bbd858dd9ca6de1c938a3f8a6b434c1e5b4b168ba77595aaf110f575"
+    },
+    {
+      "title": "Cofounder lets you run an entire company with AI",
+      "source_url": "https://cofounder.co/index.html.md",
+      "fetched_from": "https://cofounder.co/index.html.md",
+      "path": "cofounder.co/index.md",
+      "sha256": "6a7a2d232df66a6c05a4ad758ae9f598c2a80ef52f5115b87be198ca5328ee41"
+    },
+    {
+      "title": "Pricing",
+      "source_url": "https://cofounder.co/pricing.html.md",
+      "fetched_from": "https://cofounder.co/pricing.html.md",
+      "path": "cofounder.co/pricing.md",
+      "sha256": "b1afd06620708b260cdaefcb760d1520d2d191d6cd74c702eb571e387cf2758f"
+    },
+    {
+      "title": "Cofounder for College Students",
+      "source_url": "https://cofounder.co/students.html.md",
+      "fetched_from": "https://cofounder.co/students.html.md",
+      "path": "cofounder.co/students.md",
+      "sha256": "e57de1352c66ddb9cd2a751501bad3068c3d350476f2bc37d5f885bcab41eae1"
+    },
+    {
+      "title": "Online Company Incorporation with AI",
+      "source_url": "https://cofounder.co/incorporation.html.md",
+      "fetched_from": "https://cofounder.co/incorporation.html.md",
+      "path": "cofounder.co/incorporation.md",
+      "sha256": "f48a9a5adcf67482c4b83dd5ab6a4655a3bcd437b566a64df0de7c076234796d"
+    },
+    {
+      "title": "Resources",
+      "source_url": "https://cofounder.co/resources.html.md",
+      "fetched_from": "https://cofounder.co/resources.html.md",
+      "path": "cofounder.co/resources.md",
+      "sha256": "b93a0a9d150e7cad035af40afb09a0669b2c91bf4e8adea1676f33858b65ff5b"
+    },
+    {
+      "title": "How to run a company with Cofounder",
+      "source_url": "https://cofounder.co/how-to.html.md",
+      "fetched_from": "https://cofounder.co/how-to.html.md",
+      "path": "cofounder.co/how-to.md",
+      "sha256": "1e027175f39b81fa871a345fa9d290ed5984ec3429785bc648320ebbfd5e764f"
+    },
+    {
+      "title": "Privacy Policy",
+      "source_url": "https://cofounder.co/privacy-policy.html.md",
+      "fetched_from": "https://cofounder.co/privacy-policy.html.md",
+      "path": "cofounder.co/privacy-policy.md",
+      "sha256": "f2579f8ce150085d1132fbbb61ad7b39f31f974d2cf755b5e38729ab3b9cd6e0"
+    },
+    {
+      "title": "Terms of Service",
+      "source_url": "https://cofounder.co/terms.html.md",
+      "fetched_from": "https://cofounder.co/terms.html.md",
+      "path": "cofounder.co/terms.md",
+      "sha256": "ab6a3cd6d34c6bebef266b5a3c0452243f9ee4b950d26a503da018002146e0ed"
+    },
+    {
+      "title": "Support",
+      "source_url": "https://cofounder.co/support.html.md",
+      "fetched_from": "https://cofounder.co/support.html.md",
+      "path": "cofounder.co/support.md",
+      "sha256": "5fae36d0e7e6b5af8f231da93b4ba39687f183cdd71321bce2e1d49e3c96cf71"
+    },
+    {
+      "title": "Cofounder OS vs Polsia: Your Agent or an Autonomous Operator",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-polsia.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-polsia.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-polsia.md",
+      "sha256": "6cfc643b5c07078c1575d02eafb1135d36564a93026b75d2b5485c6ca0127169"
+    },
+    {
+      "title": "Lovable + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-lovable.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-lovable.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-lovable.md",
+      "sha256": "81110ee23063d84d7e4860fb5dbb62c1a97970243dc7037c58ac64b6e963c496"
+    },
+    {
+      "title": "Replit + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-replit.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-replit.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-replit.md",
+      "sha256": "eab45ca0fd60782f7b1a7e7b6f9b3727e25fe842a2889d50a7d0af40a3de06cd"
+    },
+    {
+      "title": "FlutterFlow + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-flutterflow.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-flutterflow.md",
+      "sha256": "fe2cbcec15644e83f1c1d76c06d8dfe9d380c96c4de67b1c886322f547c22809"
+    },
+    {
+      "title": "Bolt + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-bolt.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-bolt.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-bolt.md",
+      "sha256": "4d4dc8990dc7988267995886d1f71787568440e6c325575bdaf6c1bf87c440b8"
+    },
+    {
+      "title": "v0 + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-v0.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-v0.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-v0.md",
+      "sha256": "150cb8dbb845c5c7726d31657899aa8a348cfa0babe1da0b797b3bb5609c26cb"
+    },
+    {
+      "title": "Give Claude Code superpowers with Cofounder OS",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-claude-code.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-claude-code.md",
+      "sha256": "bc06ebb9c1902ae3a70120372d7bfed36fbaf38cac588e6eb6b561fad88820c0"
+    },
+    {
+      "title": "Give Cursor superpowers with Cofounder OS",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-cursor.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-cursor.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-cursor.md",
+      "sha256": "722fd98c3643f201e55260ac18e196fd9067b150064aec13e5343a70c1ec9789"
+    },
+    {
+      "title": "Give Codex superpowers with Cofounder OS",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-codex.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-codex.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-codex.md",
+      "sha256": "2dbe3cbfe5b62b73b23a65c5b19fbc64312f00db13b6199fad9f9849e8bf0ade"
+    },
+    {
+      "title": "Cofounder OS and AI SDR Tools: Prospecting and Your Business Stack",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-ai-sdr.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-ai-sdr.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-ai-sdr.md",
+      "sha256": "eb9238600a2a1cb87091d0d326c38bc67464bf521ae44116994cea0ff0b60acd"
+    },
+    {
+      "title": "Cofounder OS vs AI CMO Tools: Marketing Through One MCP",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-ai-cmo.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-ai-cmo.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-ai-cmo.md",
+      "sha256": "cc2e6e1124f2f533f376454a286d808a3f892a2fc21cfb7e5804f332b2dc7179"
+    },
+    {
+      "title": "Base44 + Cofounder: Build your app. Run your business.",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-base44.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-base44.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-base44.md",
+      "sha256": "84a515d0406d95b79597aa4e874a4c382eefc0b61eefa2ebeb5bd6109a9cdd9b"
+    },
+    {
+      "title": "Cofounder OS vs Locus: Your Agent or an AI Business Builder",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-locus.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-locus.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-locus.md",
+      "sha256": "bed296c940cdd5ab0fc6f11f85b3f110523d4cd65d1f958b85c03881147e0281"
+    },
+    {
+      "title": "Cofounder OS vs Na\u00efve: Business Stack and Agent Infrastructure",
+      "source_url": "https://cofounder.co/alternatives/cofounder-vs-naive.html.md",
+      "fetched_from": "https://cofounder.co/alternatives/cofounder-vs-naive.html.md",
+      "path": "cofounder.co/alternatives/cofounder-vs-naive.md",
+      "sha256": "0f847ea9eb589928eb09663c947c63f1550557339145e2f646f10493297658ee"
     },
     {
       "title": "How to start a company \u2014 Cofounder",
@@ -488,7 +579,7 @@
       "source_url": "https://cofounder.co/install.md",
       "fetched_from": "https://cofounder.co/install.md",
       "path": "cofounder.co/install.md",
-      "sha256": "75de1a291176e951b88ddf3b2e2eeda0e016f9829dab2dc8dfc11c51ccc3a86c"
+      "sha256": "e743550a27aea9ad5bfb7fcb2dc0fa75200670cf165d3da49b7214e7f281c4b1"
     },
     {
       "title": "Integration discovery manifest",

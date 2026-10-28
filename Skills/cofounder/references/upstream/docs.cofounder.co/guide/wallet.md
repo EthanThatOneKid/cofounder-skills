@@ -16,4 +16,7 @@ Wallet tools are not available to every company yet. Wallet funds are separate f
 | `wallet_payments_create` | `cofounder wallet payments create` | `POST /cofounder-cli/v1/company/wallet/payments` |
 | `wallet_payment_requests_create` | `cofounder wallet payment-requests create` | `POST /cofounder-cli/v1/company/wallet/payment-requests` |
 | `wallet_operations_get` | `cofounder wallet operations get` | `GET /cofounder-cli/v1/company/wallet/operations/{operation_id}` |
+| `wallet_credits_get` | `cofounder wallet credits get` | `GET /cofounder-cli/v1/company/wallet/credits` |
+| `wallet_credit_transfers_create` | `cofounder wallet credit-transfers create` | `POST /cofounder-cli/v1/company/wallet/credit-transfers` |
+| `wallet_credit_transfers_get` | `cofounder wallet credit-transfers get` | `GET /cofounder-cli/v1/company/wallet/credit-transfers/{operation_id}` |
 | `wallet_transactions_list` | `cofounder wallet transactions list` | `GET /cofounder-cli/v1/company/wallet/transactions` |

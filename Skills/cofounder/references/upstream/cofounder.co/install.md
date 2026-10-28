@@ -5,77 +5,64 @@ Fetched from: https://cofounder.co/install.md
 
 ---
 name: cofounder-install
-description: Connect your agent to the hosted Cofounder MCP server, sign the user in, and verify the connection with user_get. Use when asked to install, set up, or connect Cofounder. After sign-in it hands off to the onboarding_get tool, which owns everything after.
-compatibility: needs an agent client that supports remote MCP over HTTP with OAuth
+description: Install the Cofounder MCP, sign in, and begin onboarding in a supported desktop app or Grokbot. Use when asked to install, connect, or get started with Cofounder; use the connected tools directly for ongoing company work.
 ---
 
-# Set up Cofounder
+# Install Cofounder and get started
 
-Cofounder supplies company context, resources, and capabilities to your own agent. This guide connects your client to Cofounder (https://app.cofounder.co) and signs the user in.
+## First: Confirm the user's setup
 
-## Rules
+Verify that the user's app, mode, and plan match a supported configuration in the table. If not, guide them to one. Ask for missing details one question at a time.
 
-- Follow the steps yourself. Ask the user only for sign-in and consent.
-- Reuse an existing Cofounder connection if one exists.
-- Never report success before step 4 passes.
-- Never paste or print tokens.
-- Do not switch accounts to work around errors.
-- Installing Cofounder does not authorize anything else.
+- **Agent can install directly:** The agent can add the MCP connection for the user.
+- **Manual setup:** User must add a custom MCP connection manually.
+- **Supported setup:** Use a row marked true.
 
-## Step 1: Identify your client
+| Provider | App | Mode | Plan | MCP setup | Code changes | Supported setup |
+| --- | --- | --- | --- | --- | --- | --- |
+| OpenAI | Codex desktop | — | Free, Go, Plus, Pro | Agent can install directly | Use the push token. | true |
+| OpenAI | ChatGPT desktop | Codex | All plans | Agent can install directly | Use the push token. | true |
+| OpenAI | ChatGPT desktop | Work | All plans | Agent can install directly | Use the push token. | true |
+| OpenAI | ChatGPT desktop | Chat | All plans | Manual setup | Code changes not supported. | false |
+| OpenAI | ChatGPT website | Chat | Pro | Manual setup | Use the push token. | false |
+| OpenAI | ChatGPT website | Chat | Free, Go, Plus | Manual setup | Code changes not supported. | false |
+| OpenAI | ChatGPT website | Work | Pro | Manual setup | Use the push token. | false |
+| OpenAI | ChatGPT website | Work | Plus | Manual setup | Code changes not supported. | false |
+| OpenAI | ChatGPT website | Codex | Pro | Manual setup | Code changes not supported. | false |
+| OpenAI | ChatGPT website | Codex | Plus | Manual setup | Code changes not supported. | false |
+| OpenAI | ChatGPT mobile | — | All plans | Not supported | Code changes not supported. | false |
+| Anthropic | Claude website | Chat | Free | Manual setup | Use the push token. | false |
+| Anthropic | Claude website | Chat | Max | Manual setup | Code changes not supported. | false |
+| Anthropic | Claude desktop | Code | All plans | Agent can install directly | Use the push token. | true |
+| Anthropic | Claude desktop | Chat | All plans | Manual setup | Code changes not supported. | true |
+| Anthropic | Claude mobile | Chat | Free | Manual setup | Use the push token. | false |
+| xAI | Grokbot | — | All plans | Agent can install directly | Use the push token. | true |
 
-Decide from the runtime you are running in, not from the model name. If unclear, ask the user. Windows users use the plugin or MCP; the CLI needs WSL.
+**ChatGPT desktop:** Use **Codex mode or ChatGPT Work mode, never Chat mode**. After sign-in or a restart, continue in a new chat in one of those supported desktop modes.
 
-## Step 2: Connect
+## Unsupported setup
 
-If Cofounder tools are already listed, skip to step 4. Otherwise use the block for your client.
+For an unsupported or unlisted setup, guide the user through downloading and installing the appropriate desktop app: [ChatGPT desktop](https://chatgpt.com/download/) or [Claude desktop](https://claude.com/product/claude-code). Use Code mode in Claude.
 
-**Claude (claude.ai web, Claude Desktop chat, mobile).** Give the user this link:
-https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Cofounder&connectorUrl=https%3A%2F%2Fapi.cofounder.co%2Fmcp
-The user confirms the prefilled dialog, then clicks Connect to sign in. By hand: Customize, Connectors, +, Add custom connector. Then enable it in a chat from "+", Connectors.
-- Free plans allow one custom connector.
-- On Team and Enterprise only Owners can add connectors, using https://claude.ai/admin-settings/connectors?modal=add-custom-connector&connectorName=Cofounder&connectorUrl=https%3A%2F%2Fapi.cofounder.co%2Fmcp. Members then connect individually.
-- Open the link in a browser signed in to claude.ai; the connector then appears in Desktop and mobile too.
+Have them paste "Please follow https://app.cofounder.co/install.md to install the Cofounder MCP and onboard me" there, then wait for them to continue.
 
-**Claude Code.** Plugin:
-`claude plugin marketplace add General-Intelligence-Company/cofounder-plugin` then `claude plugin install cofounder@cofounder --scope user`
-(on Claude Code 2.1.292+, `claude plugin install cofounder --marketplace General-Intelligence-Company/cofounder-plugin` also works).
-Without the plugin: `claude mcp add --transport http cofounder https://api.cofounder.co/mcp --scope user`.
-Sign in with `/mcp`, cofounder, authenticate, or run `claude mcp login cofounder`. `claude -p` cannot do OAuth.
 
-**Codex (app, CLI, and IDE share one config).**
-- App: Plugins, Add, Add a marketplace, General-Intelligence-Company/cofounder-plugin, Install, Authenticate.
-- CLI: `codex plugin marketplace add General-Intelligence-Company/cofounder-plugin` then `codex plugin add cofounder@cofounder`.
-- Manual: `codex mcp add cofounder --url https://api.cofounder.co/mcp` then `codex mcp login cofounder` (use the name shown by `codex mcp list`). The user runs login in their own terminal (PowerShell on Windows); you cannot complete it.
-- The Windows sandbox cannot write `~/.codex`, so use the Plugins UI or the user's own PowerShell.
+## Connect
 
-**ChatGPT.**
-- Desktop app, Work chat: add the server yourself through the host's MCP installation support (URL `https://api.cofounder.co/mcp`, authentication OAuth), then continue in a new Work chat. In a Chat-mode chat, ask the user to switch to Work or use the website steps.
-- Website: send the user to https://app.cofounder.co/os/setup/chatgpt, an illustrated guide. By hand: https://chatgpt.com/plugins, Add, Add custom MCP server, name Cofounder, Server URL `https://api.cofounder.co/mcp`, authentication OAuth, Create as a plugin. Work mode needs Plus or Pro; Free and Go plans use Chat mode, where code changes are not supported. Availability also depends on workspace policy.
-- Mobile: not supported; set up on the desktop app or website first.
+Reuse an existing Cofounder connection. Otherwise:
 
-**Cursor.** Open `cursor://anysphere.cursor-deeplink/mcp/install?name=cofounder&config=eyJ1cmwiOiJodHRwczovL2FwaS5jb2ZvdW5kZXIuY28vbWNwIn0=`, or put `{"mcpServers":{"cofounder":{"url":"https://api.cofounder.co/mcp"}}}` in `~/.cursor/mcp.json`.
+Install the https://api.cofounder.co/mcp MCP.
 
-**VS Code.** Open `vscode:mcp/install?%7B%22name%22%3A%22cofounder%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.cofounder.co%2Fmcp%22%7D`, or add the server to `.vscode/mcp.json` under the top-level `servers` key as `{"type":"http","url":"https://api.cofounder.co/mcp"}`.
+Preserve other MCP servers. Call `onboarding_get`. If sign-in is required or Cofounder tools are missing, have the user complete the client's OAuth sign-in and consent. New users create their account on the same sign-in page.
 
-**Goose.** Open `goose://extension?url=https%3A%2F%2Fapi.cofounder.co%2Fmcp&type=streamable_http&id=cofounder&name=Cofounder`.
+After sign-in, refresh or re-enable the connection. If tools are still missing, start a new chat in the supported app and mode. Retry once; if still blocked, tell the user exactly what to do next and stop.
 
-**Other clients.** Add a remote Streamable HTTP server with OAuth at https://api.cofounder.co/mcp. Protected-resource metadata is at https://api.cofounder.co/.well-known/oauth-protected-resource/mcp.
+Call `user_get` and verify it returns the user's ID and email. If an expected email was provided, confirm it matches. Continue to onboarding only after this succeeds.
 
-**Config writes.** If you must write config, merge into the existing file (keep other servers) and read it back.
+## Onboard
 
-## Step 3: Sign in
+Call `onboarding_get` and follow the [onboarding skill](https://app.cofounder.co/mcp-onboarding/skill.md).
 
-New users create their account on the same sign-in page. After sign-in, if the tools do not appear, start a NEW chat (Claude: enable the connector in that chat; Claude Code: `/mcp` or `/reload-plugins`; Codex: new local chat, not cloud; ChatGPT: rescan tools). Retry once, then tell the user exactly what to click instead of editing configs repeatedly.
+Before new-company setup, ask whether the user wants an existing GitHub repository, a local-folder upload, or a new repository. Ask one question at a time and wait for each answer. For an existing company, resume its repository and completed setup.
 
-## Step 4: Verify
-
-Call `user_get`. This step passes only when it returns the user's id and email.
-
-## Step 5: Hand off
-
-Call `onboarding_get` and follow its next step. It works for new users, existing companies, and companies created in the web app.
-
-## Optional: CLI for terminal-only agents
-
-`npm install --global @generalintelligence/cofounder@latest`, then `cofounder auth login`, then `cofounder onboarding` (Node 22 or 24; macOS, Linux, or WSL).
+If the connection or guide is unavailable, report the blocker.
