@@ -8,3 +8,8 @@ Fetched from: https://docs.cofounder.co/llms-full.txt
 Set up a host by hand, connect an agent that can't open a browser, or
 manage connections you already have. For one-click installs, see
 [Connect an Agent](/get-started/connect-an-agent).
+
+For custom MCP clients, `tools/list` returns up to 50 tools per page. Pass
+each response's `nextCursor` unchanged as `params.cursor` until it is absent.
+The first page starts with onboarding and account discovery. Restart discovery
+if the catalog changes while reading pages.

@@ -75,7 +75,7 @@
       "source_url": "https://docs.cofounder.co/advanced/mcp-configuration",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/advanced/mcp-configuration.md",
-      "sha256": "de296b7000d0cbe93696046ee492f171abd3b74093eed3e224f495aa149e06c0"
+      "sha256": "b588cd485303a3eab41ac2e39c3f3dcce8a08d666215a4517dc5bf37e841ea3b"
     },
     {
       "title": "Pay Cofounder with MPP",
@@ -120,27 +120,6 @@
       "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
     },
     {
-      "title": "Connect an Agent",
-      "source_url": "https://docs.cofounder.co/get-started/connect-an-agent",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/connect-an-agent.md",
-      "sha256": "8f8398700313e42727d2db10b792fd4a53f60dd6998c807c9d49eddbf011359f"
-    },
-    {
-      "title": "How Your Agent Works",
-      "source_url": "https://docs.cofounder.co/get-started/how-your-agent-works",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/how-your-agent-works.md",
-      "sha256": "d8b5e84b56a96643c019db2c2b580ca424398100a027b50488ee855b59523655"
-    },
-    {
-      "title": "Quickstart",
-      "source_url": "https://docs.cofounder.co/get-started/quickstart",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/get-started/quickstart.md",
-      "sha256": "669d5b8aad7329e75c14a393546a73c9999c0ee47c7c9ab22093bc2a308e1138"
-    },
-    {
       "title": "Apps",
       "source_url": "https://docs.cofounder.co/dashboard/apps",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -174,6 +153,27 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/dashboard/settings.md",
       "sha256": "06d55861fc19c4c77889f7a9855d31e0f23bd5615fa160c64ec9c777cb2d3554"
+    },
+    {
+      "title": "Connect an Agent",
+      "source_url": "https://docs.cofounder.co/get-started/connect-an-agent",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/connect-an-agent.md",
+      "sha256": "8f8398700313e42727d2db10b792fd4a53f60dd6998c807c9d49eddbf011359f"
+    },
+    {
+      "title": "How Your Agent Works",
+      "source_url": "https://docs.cofounder.co/get-started/how-your-agent-works",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/how-your-agent-works.md",
+      "sha256": "d8b5e84b56a96643c019db2c2b580ca424398100a027b50488ee855b59523655"
+    },
+    {
+      "title": "Quickstart",
+      "source_url": "https://docs.cofounder.co/get-started/quickstart",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/get-started/quickstart.md",
+      "sha256": "669d5b8aad7329e75c14a393546a73c9999c0ee47c7c9ab22093bc2a308e1138"
     },
     {
       "title": "Ads",
@@ -586,7 +586,7 @@
       "source_url": "https://cofounder.co/install.md",
       "fetched_from": "https://cofounder.co/install.md",
       "path": "cofounder.co/install.md",
-      "sha256": "33b3a2df80ff5498580f49739898c307f157be6684bd5da4c6c5d27332fda617"
+      "sha256": "a8d315ce70fcff57107bd5d7cd76a49b558725aeae6b201c2fe90c6590d46fc7"
     },
     {
       "title": "Integration discovery manifest",
