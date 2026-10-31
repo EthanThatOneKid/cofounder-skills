@@ -309,18 +309,18 @@
       "sha256": "370ce853471755337537c0803860d7b00656d10d9dea47a85db92091c21a12bf"
     },
     {
-      "title": "Verify work",
-      "source_url": "https://docs.cofounder.co/guide/verify-work",
+      "title": "Verifiers",
+      "source_url": "https://docs.cofounder.co/guide/verifiers",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/guide/verify-work.md",
-      "sha256": "e5c91d7eab21b7299953a144920e1b253501e013571435d50745abb3ebbff4c8"
+      "path": "docs.cofounder.co/guide/verifiers.md",
+      "sha256": "02d357a1fc370734f52828ee75e45d746379b6ddaddf6600ca497f0049fe474d"
     },
     {
       "title": "Wallet",
       "source_url": "https://docs.cofounder.co/guide/wallet",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/wallet.md",
-      "sha256": "b2add99663f5aec5a53a81522382c669beb470a43c951802e3f5f143fb364000"
+      "sha256": "d1f5512e6670873a7e27586e0c4ebf9d2d5fef108967924237261c2aaad7cbda"
     },
     {
       "title": "Watch It Run",
