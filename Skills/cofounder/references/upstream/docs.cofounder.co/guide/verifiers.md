@@ -10,15 +10,16 @@ during rollout.
 
 Choose a verifier and provide the goals and references it should work from.
 The working agent creates or improves the deliverables, checks its work against
-its rubrics and returns finished output with guidance for your next agent.
+its rubrics and returns the finished output. Website runs also include an
+implementation handoff for the agent that will build the design.
 
 | Verifier | Output |
 | --- | --- |
-| `ads` | Finished creative assets and guidance saved to the company Library, with preview and download links |
-| `copy` | Improved text with guidance on how to use it |
-| `website` | Library ZIP containing improved frames, implementation files and guidance selected from your brief |
+| `ads` | Finished images, videos and any ad text saved to the company Library, with preview and download links |
+| `copy` | The finished copy |
+| `website` | Library ZIP containing improved frames, implementation files and an implementation handoff selected from your brief |
 | `market` | Market strategy covering the ICP, audience and approach to building the business |
 
 Website runs use public URLs or screenshots. They do not require source code,
-a repository or a custom domain, and the output is design guidance rather than
+a repository or a custom domain, and the output is a design handoff rather than
 a working customer application. Ads runs create assets; they do not launch campaigns.
