@@ -9,8 +9,9 @@ Verifiers are not available to every company yet. Access is enabled by environme
 during rollout.
 
 Choose a verifier and provide the goals and references it should work from.
-The working agent creates or improves the deliverables, checks its work against
-its rubrics and returns the finished output. Website runs also include an
+The working agent creates or improves the deliverables and returns the finished
+output after rubric checks pass. Ads use independent JEV evaluation; the other
+verifiers use agent evaluation. Website runs also include an
 implementation handoff for the agent that will build the design.
 
 | Verifier | Output |

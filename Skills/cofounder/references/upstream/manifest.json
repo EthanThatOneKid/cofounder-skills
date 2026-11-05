@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 83,
+  "count": 84,
   "failure_count": 1,
   "failures": [
     {
@@ -180,7 +180,7 @@
       "source_url": "https://docs.cofounder.co/guide/ads",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/ads.md",
-      "sha256": "d8326af1197718f196c81f21a3f7cada7b0d53e100424e37896bb70a933470e0"
+      "sha256": "ea94577bbdf7f4ef884a95d8d44c434e4ef97eddb24c9aa955ee696232deab0f"
     },
     {
       "title": "Communicate and Sell",
@@ -204,11 +204,18 @@
       "sha256": "0a0aef2411b1f4b011841a0becdebdc3d6e023f9cd02ccbfebcb9a7a3243789b"
     },
     {
+      "title": "Import Contacts and History",
+      "source_url": "https://docs.cofounder.co/guide/crm-import",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/guide/crm-import.md",
+      "sha256": "5ddc6de8d9d5a6b69b9dad262e57446b20d317edc7dda37e335dc39cd93adcda"
+    },
+    {
       "title": "CRM",
       "source_url": "https://docs.cofounder.co/guide/crm",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/crm.md",
-      "sha256": "ec5b924f1af8b849025d152a33ce2a597dce5e94ed5f4d63f42e3d0ddf5b4f9c"
+      "sha256": "82b9ca703863a7245687bec29a50ed18b579f46bd58644d6e467a49266247c9e"
     },
     {
       "title": "Customer Support",
@@ -313,7 +320,7 @@
       "source_url": "https://docs.cofounder.co/guide/verifiers",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/verifiers.md",
-      "sha256": "9d4a372f8569bc3095ecf951f84e093563cdd0224109aa93a511f7dc21636cd0"
+      "sha256": "9ba6bbc15f84794bf5a48ca3fdf887f005caf6d10b4c26c5b374ee8b9ad3870f"
     },
     {
       "title": "Wallet",

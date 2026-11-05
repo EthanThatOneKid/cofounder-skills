@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/guide/crm
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Track the companies, people, and deals you sell to, log what happened with each, and find new prospects.
+**Description:** Keep contacts, campaign history, and pipeline progress together, and track conversations and follow-ups.
 
 Every company gets a built-in CRM that your agent keeps up to date: the
 companies you sell to, the people there, your deals, and a log of every
