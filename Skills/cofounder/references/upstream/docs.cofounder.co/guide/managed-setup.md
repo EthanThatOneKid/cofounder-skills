@@ -8,4 +8,4 @@ Fetched from: https://docs.cofounder.co/llms-full.txt
 Setup gives your company the accounts and projects a working app needs, in
 one run. It creates real accounts and projects (GitHub, Vercel, and the
 rest) at no cost to you, so during onboarding your agent starts it as soon as
-your company is created.
+your company is created and named.
