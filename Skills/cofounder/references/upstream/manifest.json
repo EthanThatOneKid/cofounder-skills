@@ -43,27 +43,6 @@
       "sha256": "cb660f5e25c789d2e005f96432044db282582fd1df835fced160db5a13da37bb"
     },
     {
-      "title": "Import a Repo and Ship a Change",
-      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
-      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
-    },
-    {
-      "title": "Cookbook",
-      "source_url": "https://docs.cofounder.co/cookbook",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook.md",
-      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
-    },
-    {
-      "title": "Run a Company End to End",
-      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
-      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
-    },
-    {
       "title": "Agent Spend",
       "source_url": "https://docs.cofounder.co/advanced/agent-spend",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -118,6 +97,27 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/advanced/secrets-and-env-files.md",
       "sha256": "e23e40eb5e0ec1ec997e5016dbca7e601d89dfcc0675c81f37206a55661876f1"
+    },
+    {
+      "title": "Import a Repo and Ship a Change",
+      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
+      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
+    },
+    {
+      "title": "Cookbook",
+      "source_url": "https://docs.cofounder.co/cookbook",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook.md",
+      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
+    },
+    {
+      "title": "Run a Company End to End",
+      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
+      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
     },
     {
       "title": "Apps",
