@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 84,
+  "count": 83,
   "failure_count": 1,
   "failures": [
     {
@@ -19,7 +19,7 @@
       "source_url": "https://docs.cofounder.co/introduction",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/introduction.md",
-      "sha256": "33ac15f8ba0af4877d783817f5b4c3671432884d1bfb76258d7a2d553c195ae5"
+      "sha256": "1eba99c69e19da721d3207751173edd93ab5726e154f789e8960cca5b3798bbb"
     },
     {
       "title": "Migrating from the Web App",
@@ -159,7 +159,7 @@
       "source_url": "https://docs.cofounder.co/get-started/connect-an-agent",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/get-started/connect-an-agent.md",
-      "sha256": "8f8398700313e42727d2db10b792fd4a53f60dd6998c807c9d49eddbf011359f"
+      "sha256": "36109df525f6c2d43831c452513d24ac6d45fe430e63f2e6e073d6fe84ba1a0a"
     },
     {
       "title": "How Your Agent Works",
@@ -293,13 +293,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/payments.md",
       "sha256": "c26604ed558bc94759ecc3e94c59ea912c8b8eb03a7ab60ca476c35839783068"
-    },
-    {
-      "title": "People",
-      "source_url": "https://docs.cofounder.co/guide/people",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/guide/people.md",
-      "sha256": "bc325b7d6b783c7d1e13abbb5a853f69ad6f668de1d0a1473034f1fc1190e88e"
     },
     {
       "title": "Research",
@@ -593,7 +586,7 @@
       "source_url": "https://cofounder.co/install.md",
       "fetched_from": "https://cofounder.co/install.md",
       "path": "cofounder.co/install.md",
-      "sha256": "a8d315ce70fcff57107bd5d7cd76a49b558725aeae6b201c2fe90c6590d46fc7"
+      "sha256": "b80c16154d5f44d0111eca62ad239fc27b32839bdfbdd578fe1595ace5f3b62b"
     },
     {
       "title": "Integration discovery manifest",

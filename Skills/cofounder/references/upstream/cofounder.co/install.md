@@ -5,7 +5,7 @@ Fetched from: https://cofounder.co/install.md
 
 ---
 name: cofounder-install
-description: Install the Cofounder MCP, sign in, and begin onboarding in a supported desktop app. Use when asked to install, connect, or get started with Cofounder; use the connected tools directly for ongoing company work.
+description: Connect the Cofounder MCP on desktop or web, sign in, and begin onboarding. ChatGPT mobile uses a connection set up on its website. Use when asked to install, connect, or get started with Cofounder; use connected tools directly for ongoing company work.
 ---
 
 # Install Cofounder and get started
@@ -16,40 +16,44 @@ Identify the user's app and mode from runtime context when available. Use the ta
 
 - **Agent can install directly:** The agent can add the MCP connection for the user.
 - **Manual setup:** User must add a custom MCP connection manually.
-- **Supported setup:** Rows marked true are supported; unlisted agents can also work if they meet the capabilities below.
+- **Install in this app:** Whether this guide supports connecting on that client. This is separate from using an existing connection and coding in a sandbox.
 
-| Provider | App | Mode | Plan | MCP setup | Code changes | Supported setup |
+Cofounder sandboxes are available on every supported platform. On web and mobile, always use a Cofounder sandbox for coding. On desktop, use either a Cofounder sandbox or the terminal in your desktop app. For sandbox work, follow `skill://cofounder-sandboxes/SKILL.md` (read it with the Cofounder `read_resource` tool). Your ChatGPT plan and workspace must support connecting to MCP.
+
+The coding column assumes an authenticated Cofounder connection.
+
+| Provider | App | Mode | Plan | MCP setup | Coding | Install in this app |
 | --- | --- | --- | --- | --- | --- | --- |
-| OpenAI | Codex desktop | — | Free, Go, Plus, Pro | Agent can install directly | Use the push token. | true |
-| OpenAI | ChatGPT desktop | Codex | All plans | Agent can install directly | Use the push token. | true |
-| OpenAI | ChatGPT desktop | Work | All plans | Agent can install directly | Use the push token. | true |
-| OpenAI | ChatGPT desktop | Chat | All plans | Manual setup | Code changes not supported. | false |
-| OpenAI | ChatGPT website | Chat | Pro | Manual setup | Use the push token. | false |
-| OpenAI | ChatGPT website | Chat | Free, Go, Plus | Manual setup | Code changes not supported. | false |
-| OpenAI | ChatGPT website | Work | Pro | Manual setup | Use the push token. | false |
-| OpenAI | ChatGPT website | Work | Plus | Manual setup | Code changes not supported. | false |
-| OpenAI | ChatGPT website | Codex | Pro | Manual setup | Code changes not supported. | false |
-| OpenAI | ChatGPT website | Codex | Plus | Manual setup | Code changes not supported. | false |
-| OpenAI | ChatGPT mobile | — | All plans | Not supported | Code changes not supported. | false |
-| Anthropic | Claude website | Chat | Free | Manual setup | Use the push token. | false |
-| Anthropic | Claude website | Chat | Max | Manual setup | Code changes not supported. | false |
-| Anthropic | Claude desktop | Code | All plans | Agent can install directly | Use the push token. | true |
-| Anthropic | Claude desktop | Chat | All plans | Manual setup | Code changes not supported. | false |
-| Anthropic | Claude mobile | Chat | Free | Manual setup | Use the push token. | false |
-| Cursor | Cursor desktop | — | All plans | Agent can install directly | Use the push token. | true |
-| xAI | Grok Bot desktop | — | All plans | Agent can install directly | Use the push token. | true |
+| OpenAI | Codex desktop | — | Free, Go, Plus, Pro | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
+| OpenAI | ChatGPT desktop | Codex | All plans | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
+| OpenAI | ChatGPT desktop | Work | All plans | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
+| OpenAI | ChatGPT desktop | Chat | All plans | Manual setup | Desktop app’s terminal or Cofounder sandbox | Yes |
+| OpenAI | ChatGPT website | Chat | Free, Go, Plus, Pro | Manual setup | Cofounder sandbox | Yes |
+| OpenAI | ChatGPT website | Work | Plus, Pro | Manual setup | Cofounder sandbox | Yes |
+| OpenAI | ChatGPT website | Codex | Plus, Pro | Manual setup | Cofounder sandbox | Yes |
+| OpenAI | ChatGPT mobile | — | All plans | No direct install; connect on the ChatGPT website first | Cofounder sandbox | No |
+| Anthropic | Claude website | Chat | Free, Max | Manual setup | Cofounder sandbox | No |
+| Anthropic | Claude desktop | Code | All plans | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
+| Anthropic | Claude desktop | Chat | All plans | Manual setup | Desktop app’s terminal or Cofounder sandbox | No |
+| Anthropic | Claude mobile | Chat | Free | Manual setup | Cofounder sandbox | No |
+| Cursor | Cursor desktop | — | All plans | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
+| xAI | Grok Bot desktop | — | All plans | Agent can install directly | Desktop app’s terminal or Cofounder sandbox | Yes |
 
-**ChatGPT desktop:** Use **Codex mode or ChatGPT Work mode, never Chat mode**. After sign-in or a restart, continue in a new chat in one of those supported desktop modes.
+**ChatGPT desktop:** Codex and Work modes can install directly. Chat mode uses a manual MCP connection and can code through Cofounder sandboxes once connected.
+
+**ChatGPT website:** Use the [web setup guide](https://app.cofounder.co/os/setup/chatgpt) to add Cofounder, then continue in a chat with Cofounder selected. Available plans and modes still depend on ChatGPT's connection settings.
+
+**ChatGPT mobile:** There is no direct install path in the mobile app. Connect Cofounder on the ChatGPT website first, then use the same account and workspace on mobile. A desktop-only installation does not enable mobile access. Continue on mobile and use a Cofounder sandbox for coding.
 
 **Grok Bot desktop:** The Bot runs on a shared cloud computer, not on the founder's laptop. Do not claim access to laptop files or offer local-folder upload from Grok Bot; use a connected GitHub repository or a new repository for company code.
 
 ## Other and unsupported setups
 
-For an unlisted agent, reuse its existing Cofounder connection or use its own connection flow to add the remote HTTP MCP server at https://api.cofounder.co/mcp. Continue when it can authenticate and call Cofounder tools. Repository work also requires a shell and filesystem the agent can use; do not claim access the host does not provide. Ask for the specific missing capability only when it blocks the requested work.
+For an unlisted agent, reuse its existing Cofounder connection or use its own connection flow to add the remote HTTP MCP server at https://api.cofounder.co/mcp. Continue when it can authenticate and call Cofounder tools. On web and mobile, do repository work in a Cofounder sandbox. On desktop, use a sandbox or the terminal in your desktop app. A sandbox does not grant access to files on the founder's computer. Ask for a missing capability only when it blocks the requested work.
 
-If the current host cannot connect to Cofounder or perform a needed coding step, explain the blocker and offer a supported alternative. Install [ChatGPT](https://chatgpt.com/download/), [Claude](https://claude.com/download), [Cursor](https://cursor.com/download), or [Grok Bot](https://cursor.com/download/bot), then use Codex or Work mode in ChatGPT, Code mode in Claude, Cursor, or Grok Bot desktop.
+If the current host cannot connect to Cofounder, explain the blocker and offer the [ChatGPT web setup guide](https://app.cofounder.co/os/setup/chatgpt) or a supported desktop app: [ChatGPT](https://chatgpt.com/download/), [Claude](https://claude.com/download), [Cursor](https://cursor.com/download), or [Grok Bot](https://cursor.com/download/bot). Use Codex or Work mode in ChatGPT, Code mode in Claude, Cursor, or Grok Bot desktop.
 
-If they switch, have them paste "Please follow https://app.cofounder.co/install.md to connect Cofounder and help me get started" in the selected desktop app, then wait for them to continue.
+If they switch, have them paste "Please follow https://app.cofounder.co/install.md to connect Cofounder and help me get started" in the selected app, then wait for them to continue.
 
 
 ## Connect
@@ -89,7 +93,7 @@ claude plugin install cofounder@cofounder --scope user
 
 The plugin provides its own MCP server; do not add a duplicate. Open `/mcp`, select the Cofounder server, and ask the founder to sign in in the browser. If the installed plugin or its server does not appear, reload plugins or start a new Claude Code session. Before the browser handoff, tell the founder: “After signing in, return to this conversation and send Continue.” For Claude Code cloud sessions, use the host's existing connector flow instead of changing the local computer.
 
-For the other supported desktop configurations, install the https://api.cofounder.co/mcp MCP through the host's connection flow.
+For the other supported configurations, install the https://api.cofounder.co/mcp MCP through the host's connection flow.
 
 Preserve other MCP servers. If Cofounder tools are missing, check whether the connection needs to be added or enabled before requesting sign-in. When sign-in is required, have the user complete the client's OAuth sign-in and consent. New users create their account on the same sign-in page.
 

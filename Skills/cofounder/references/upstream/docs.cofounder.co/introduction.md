@@ -9,3 +9,9 @@ CofounderOS gives your AI agent the tools to run a company: code and
 deploys, databases, domains, email, phone, payments, the CRM, and ads. You
 make the decisions. Your agent does the work and asks before it spends money
 or sets anything up.
+
+With Cofounder sandboxes, your agent can write and run code from ChatGPT on
+desktop, web, or mobile. On web and mobile, your agent uses a sandbox. On
+desktop, it can use a sandbox or the terminal in your desktop app. Mobile uses a
+connection set up on the ChatGPT website first;
+[Connect an Agent](/get-started/connect-an-agent) explains the install paths.

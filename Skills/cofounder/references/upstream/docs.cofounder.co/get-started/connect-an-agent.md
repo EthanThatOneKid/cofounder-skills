@@ -10,5 +10,9 @@ VS Code. Connect through the CLI if your agent runs commands in a terminal,
 or for scripts and CI. Both give your agent the same tools, and you can use
 both.
 
+On web and mobile, your agent edits files and runs code in a Cofounder
+sandbox. On desktop, it can use a sandbox or the terminal in your desktop app.
+Your ChatGPT plan and workspace must support the Cofounder connection.
+
 The options below go from least to most work. Use the first one your agent
 supports.
