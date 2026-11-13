@@ -11,5 +11,6 @@ is limited to selected companies. Your agent researches what works,
 sets up campaigns, keeps spending under a daily limit you control, and
 reports how they perform.
 
-Connecting accounts and anything that spends money require a company admin.
-Any member can see accounts, campaigns, and results.
+Any member can connect existing ad accounts and see accounts, campaigns, and
+results. Spending actions through the direct API or dashboard require a company
+admin.

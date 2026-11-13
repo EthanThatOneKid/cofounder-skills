@@ -13,7 +13,7 @@ tickets.
 This page is about your customers' support. To reach the Cofounder team, use
 `support_create` ([Support](/guide/watch-it-run#support)).
 
-Customer support is not available to every company yet. The Support page and
-CLI/MCP tools are available only after it is enabled for your company. This is
+Customer support is not available to every company yet. The CLI/MCP tools
+are available only after it is enabled for your company. This is
 separate from choosing an inbox: mailbox setup does not enable the feature.
 Direct API access and incoming ticket processing remain available.
