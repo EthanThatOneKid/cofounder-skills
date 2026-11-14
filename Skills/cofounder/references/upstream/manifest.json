@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 84,
+  "count": 83,
   "failure_count": 1,
   "failures": [
     {
@@ -99,6 +99,27 @@
       "sha256": "e23e40eb5e0ec1ec997e5016dbca7e601d89dfcc0675c81f37206a55661876f1"
     },
     {
+      "title": "Import a Repo and Ship a Change",
+      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
+      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
+    },
+    {
+      "title": "Cookbook",
+      "source_url": "https://docs.cofounder.co/cookbook",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook.md",
+      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
+    },
+    {
+      "title": "Run a Company End to End",
+      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
+      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
+    },
+    {
       "title": "Apps",
       "source_url": "https://docs.cofounder.co/dashboard/apps",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -132,27 +153,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/dashboard/settings.md",
       "sha256": "06d55861fc19c4c77889f7a9855d31e0f23bd5615fa160c64ec9c777cb2d3554"
-    },
-    {
-      "title": "Import a Repo and Ship a Change",
-      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
-      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
-    },
-    {
-      "title": "Cookbook",
-      "source_url": "https://docs.cofounder.co/cookbook",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook.md",
-      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
-    },
-    {
-      "title": "Run a Company End to End",
-      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
-      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
     },
     {
       "title": "Connect an Agent",
@@ -216,13 +216,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/crm.md",
       "sha256": "82b9ca703863a7245687bec29a50ed18b579f46bd58644d6e467a49266247c9e"
-    },
-    {
-      "title": "Customer Support",
-      "source_url": "https://docs.cofounder.co/guide/customer-support",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/guide/customer-support.md",
-      "sha256": "1a7171079d552e0d94372382b98433853483b9d004ade1193022a64077d076c4"
     },
     {
       "title": "Database",
@@ -320,7 +313,7 @@
       "source_url": "https://docs.cofounder.co/guide/verifiers",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/verifiers.md",
-      "sha256": "9ba6bbc15f84794bf5a48ca3fdf887f005caf6d10b4c26c5b374ee8b9ad3870f"
+      "sha256": "37ae9caa1b271bc9414dac153ca1c0bf05779ce493a99b953df5b6d05ba9148d"
     },
     {
       "title": "Wallet",
