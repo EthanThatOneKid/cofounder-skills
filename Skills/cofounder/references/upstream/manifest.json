@@ -4,7 +4,7 @@
     "site_map_url": "https://cofounder.co/llms.txt"
   },
   "output_dir": "Skills/cofounder/references/upstream",
-  "count": 83,
+  "count": 84,
   "failure_count": 1,
   "failures": [
     {
@@ -183,6 +183,13 @@
       "sha256": "4447e915fa7669ea692d498fc701bfbe3600abda350070129ae4c9148ba30ed8"
     },
     {
+      "title": "Analytics Dashboard",
+      "source_url": "https://docs.cofounder.co/guide/analytics-dashboard",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/guide/analytics-dashboard.md",
+      "sha256": "c1d0dfdf31b4e3976f2db7848d3fa463c48c69dbff59f81856786f6dc725e1ca"
+    },
+    {
       "title": "Communicate and Sell",
       "source_url": "https://docs.cofounder.co/guide/communicate-and-sell",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -313,7 +320,7 @@
       "source_url": "https://docs.cofounder.co/guide/verifiers",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/verifiers.md",
-      "sha256": "37ae9caa1b271bc9414dac153ca1c0bf05779ce493a99b953df5b6d05ba9148d"
+      "sha256": "bb5f0ae3274d3aed51d20fc34f406848b3605154557659f304e5077e878a041f"
     },
     {
       "title": "Wallet",
