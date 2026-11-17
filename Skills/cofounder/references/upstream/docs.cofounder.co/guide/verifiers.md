@@ -3,7 +3,7 @@
 Source: https://docs.cofounder.co/guide/verifiers
 Fetched from: https://docs.cofounder.co/llms-full.txt
 
-**Description:** Create or improve ads, copy, website designs and market strategy from context and optional content.
+**Description:** Create or improve video ads, copy, website designs and market strategy from context and optional content.
 
 Verifiers are not available to every company yet. Access is enabled selectively
 during rollout.
@@ -17,11 +17,16 @@ services.
 
 | Verifier | Output |
 | --- | --- |
-| `ads` | Finished images, videos and any ad text saved to the company Library, with preview and download links |
-| `copy` | The finished copy |
+| `ads` | Finished videos and accompanying ad text saved to the company Library, with preview and download links |
+| `copy` | Finished text, including image-ad copy |
 | `website` | Library ZIP containing improved frames, implementation files and an implementation handoff selected from your brief |
 | `market` | Market strategy covering the ICP, audience and approach to building the business |
 
 Website runs use public URLs or screenshots. They do not require source code,
 a repository or a custom domain, and the output is a design handoff rather than
 a working customer application. Ads runs create assets; they do not launch campaigns.
+
+Use `copy` for image-ad wording. Supply the image to review its headline,
+on-image wording and accompanying copy together; the result is finished text.
+Use `ads` for finished video ads. Artwork and keyframes remain part of video
+production, rather than standalone image-ad deliverables.

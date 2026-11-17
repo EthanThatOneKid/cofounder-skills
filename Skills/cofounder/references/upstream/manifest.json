@@ -180,7 +180,7 @@
       "source_url": "https://docs.cofounder.co/guide/ads",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/ads.md",
-      "sha256": "4447e915fa7669ea692d498fc701bfbe3600abda350070129ae4c9148ba30ed8"
+      "sha256": "34bcc25266b2bbf34dcdec0a64d9da4324f38a5e0002f848fbfbebb39f71dc8f"
     },
     {
       "title": "Analytics Dashboard",
@@ -320,14 +320,14 @@
       "source_url": "https://docs.cofounder.co/guide/verifiers",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/verifiers.md",
-      "sha256": "bb5f0ae3274d3aed51d20fc34f406848b3605154557659f304e5077e878a041f"
+      "sha256": "ea7f282fa57d24970715817cee26e9f4f3a420f574b061841b9b494d6a180615"
     },
     {
       "title": "Wallet",
       "source_url": "https://docs.cofounder.co/guide/wallet",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/wallet.md",
-      "sha256": "f24abcb8ed0bd2385aedd1a7e404a1b6a366404affff54d8f3b9296c9f198a90"
+      "sha256": "443003191bb28c6c7011a909fd77820e770907db787d8cee2bdf1162c11d3800"
     },
     {
       "title": "Watch It Run",
