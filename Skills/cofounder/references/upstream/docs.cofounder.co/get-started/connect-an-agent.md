@@ -12,7 +12,7 @@ both.
 
 Without a plan, your agent can set up your company, write your brief and
 plan your first goal. Doing the work, such as running tasks, sending email,
-deploying, researching or buying, needs the company's $40/month subscription.
+deploying, researching or buying, needs an active company subscription.
 See [Billing](/guide/watch-it-run#billing).
 
 On web and mobile, your agent edits files and runs code in a Cofounder
