@@ -5,12 +5,17 @@
   },
   "output_dir": "Skills/cofounder/references/upstream",
   "count": 84,
-  "failure_count": 1,
+  "failure_count": 2,
   "failures": [
     {
       "title": "A Day in the Life of the World\u2019s Most AI Forward Company",
       "source_url": "https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company",
       "error": "No markdown source found for https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company: https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company.md: returned HTML, not markdown; https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company.html.md: HTTP Error 404: Not Found; https://cofounder.co/resources/a-day-in-the-life-of-the-worlds-most-ai-forward-company: returned HTML, not markdown"
+    },
+    {
+      "title": "Install Cofounder for your agent",
+      "source_url": "https://cofounder.co/install.md",
+      "error": "No markdown source found for https://cofounder.co/install.md: https://cofounder.co/install.md: HTTP Error 404: Not Found"
     }
   ],
   "items": [
@@ -99,6 +104,27 @@
       "sha256": "e23e40eb5e0ec1ec997e5016dbca7e601d89dfcc0675c81f37206a55661876f1"
     },
     {
+      "title": "Import a Repo and Ship a Change",
+      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
+      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
+    },
+    {
+      "title": "Cookbook",
+      "source_url": "https://docs.cofounder.co/cookbook",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook.md",
+      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
+    },
+    {
+      "title": "Run a Company End to End",
+      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
+      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
+    },
+    {
       "title": "Apps",
       "source_url": "https://docs.cofounder.co/dashboard/apps",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -132,27 +158,6 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/dashboard/settings.md",
       "sha256": "d2db76ca34c4d81d6c2a4282a70f8436b47ea9db9473cdaeafde01e989fb95dc"
-    },
-    {
-      "title": "Import a Repo and Ship a Change",
-      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
-      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
-    },
-    {
-      "title": "Cookbook",
-      "source_url": "https://docs.cofounder.co/cookbook",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook.md",
-      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
-    },
-    {
-      "title": "Run a Company End to End",
-      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
-      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
     },
     {
       "title": "Connect an Agent",
@@ -307,6 +312,13 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/guide/seo.md",
       "sha256": "5f47ba75f2d85020853a4351eb4031972feed5e5fe9a729efa438eb0a59c3a38"
+    },
+    {
+      "title": "Slideshows",
+      "source_url": "https://docs.cofounder.co/guide/slideshows",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/guide/slideshows.md",
+      "sha256": "1d66e3869998770bd158b570b9b59b08900d65f295e6edbe0de3be69c616d5be"
     },
     {
       "title": "Tasks",
@@ -587,13 +599,6 @@
       "fetched_from": "https://cofounder.co/resources/cofounder-1-5-seed-round.md",
       "path": "cofounder.co/resources/cofounder-1-5-seed-round.md",
       "sha256": "331d85e3dff57562fe3eef157608f99e80c7c01f67dd2e234b01d253700092d7"
-    },
-    {
-      "title": "Install Cofounder for your agent",
-      "source_url": "https://cofounder.co/install.md",
-      "fetched_from": "https://cofounder.co/install.md",
-      "path": "cofounder.co/install.md",
-      "sha256": "b80c16154d5f44d0111eca62ad239fc27b32839bdfbdd578fe1595ace5f3b62b"
     },
     {
       "title": "Integration discovery manifest",
