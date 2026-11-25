@@ -48,62 +48,6 @@
       "sha256": "4db002760b68784a551727940b7429e418d880d263615812d6f5d51e535d82ae"
     },
     {
-      "title": "Import a Repo and Ship a Change",
-      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
-      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
-    },
-    {
-      "title": "Cookbook",
-      "source_url": "https://docs.cofounder.co/cookbook",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook.md",
-      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
-    },
-    {
-      "title": "Run a Company End to End",
-      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
-      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
-    },
-    {
-      "title": "Apps",
-      "source_url": "https://docs.cofounder.co/dashboard/apps",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/dashboard/apps.md",
-      "sha256": "d2d9ec3047fdc4cf50bb54b01a96e4ea037301b6075fd5d7da256c7365d14c27"
-    },
-    {
-      "title": "Steps Your Agent Hands You",
-      "source_url": "https://docs.cofounder.co/dashboard/handoffs",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/dashboard/handoffs.md",
-      "sha256": "b5528a43ca73c3109e262f95d6019b9bd1188addc91add5acbf62df912024c59"
-    },
-    {
-      "title": "Home",
-      "source_url": "https://docs.cofounder.co/dashboard/home",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/dashboard/home.md",
-      "sha256": "1428d48332a67927bb298683c5a34003e165407622aa0f28f1643102d8ede93b"
-    },
-    {
-      "title": "Dashboard Overview",
-      "source_url": "https://docs.cofounder.co/dashboard/overview",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/dashboard/overview.md",
-      "sha256": "5f98aa4a758ab70e6d37fc332459d46b58974b17203c3ac78e7729da5a243d58"
-    },
-    {
-      "title": "Settings",
-      "source_url": "https://docs.cofounder.co/dashboard/settings",
-      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
-      "path": "docs.cofounder.co/dashboard/settings.md",
-      "sha256": "d2db76ca34c4d81d6c2a4282a70f8436b47ea9db9473cdaeafde01e989fb95dc"
-    },
-    {
       "title": "Agent Spend",
       "source_url": "https://docs.cofounder.co/advanced/agent-spend",
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
@@ -158,6 +102,62 @@
       "fetched_from": "https://docs.cofounder.co/llms-full.txt",
       "path": "docs.cofounder.co/advanced/secrets-and-env-files.md",
       "sha256": "e23e40eb5e0ec1ec997e5016dbca7e601d89dfcc0675c81f37206a55661876f1"
+    },
+    {
+      "title": "Import a Repo and Ship a Change",
+      "source_url": "https://docs.cofounder.co/cookbook/import-a-repo-and-ship",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/import-a-repo-and-ship.md",
+      "sha256": "58b9d2e148ed98aef08d766f0481efb0e8382313b5462f80f0e16cf2479cb281"
+    },
+    {
+      "title": "Cookbook",
+      "source_url": "https://docs.cofounder.co/cookbook",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook.md",
+      "sha256": "8e79e8e628c744d8a5af30b43a2e69aefabd2f876beca84b6ee220a315b6cf2c"
+    },
+    {
+      "title": "Run a Company End to End",
+      "source_url": "https://docs.cofounder.co/cookbook/run-a-company-end-to-end",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/cookbook/run-a-company-end-to-end.md",
+      "sha256": "8a74e3e9c5f18fc8a0b44542688cd50d79b6712777d49dbd8a76df4f68b5514b"
+    },
+    {
+      "title": "Apps",
+      "source_url": "https://docs.cofounder.co/dashboard/apps",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/dashboard/apps.md",
+      "sha256": "d2d9ec3047fdc4cf50bb54b01a96e4ea037301b6075fd5d7da256c7365d14c27"
+    },
+    {
+      "title": "Steps Your Agent Hands You",
+      "source_url": "https://docs.cofounder.co/dashboard/handoffs",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/dashboard/handoffs.md",
+      "sha256": "04646b3c0da8e399ecba354c1f4423731ced6bd65aad9ee1841ce217ff23bcb9"
+    },
+    {
+      "title": "Home",
+      "source_url": "https://docs.cofounder.co/dashboard/home",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/dashboard/home.md",
+      "sha256": "1428d48332a67927bb298683c5a34003e165407622aa0f28f1643102d8ede93b"
+    },
+    {
+      "title": "Dashboard Overview",
+      "source_url": "https://docs.cofounder.co/dashboard/overview",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/dashboard/overview.md",
+      "sha256": "5f98aa4a758ab70e6d37fc332459d46b58974b17203c3ac78e7729da5a243d58"
+    },
+    {
+      "title": "Settings",
+      "source_url": "https://docs.cofounder.co/dashboard/settings",
+      "fetched_from": "https://docs.cofounder.co/llms-full.txt",
+      "path": "docs.cofounder.co/dashboard/settings.md",
+      "sha256": "d2db76ca34c4d81d6c2a4282a70f8436b47ea9db9473cdaeafde01e989fb95dc"
     },
     {
       "title": "Connect an Agent",
